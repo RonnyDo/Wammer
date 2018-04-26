@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.ronnydo.wammer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-26 01:30-0500\n"
+"POT-Creation-Date: 2018-04-26 02:00-0500\n"
 "PO-Revision-Date: 2018-04-23 22:10-0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -21,57 +21,57 @@ msgstr ""
 msgid "Select the WiFi interface, which will be used for jamming."
 msgstr ""
 
-#: src/MainWindow.vala:166
+#: src/MainWindow.vala:167
 msgid "Everything works fine."
 msgstr ""
 
-#: src/MainWindow.vala:166
+#: src/MainWindow.vala:167
 msgid "The jammer is <b>inactive</b>. Your WiFi network will work as usual."
 msgstr ""
 
-#: src/MainWindow.vala:167
+#: src/MainWindow.vala:168
 msgid "Activate jammer"
 msgstr ""
 
-#: src/MainWindow.vala:179
+#: src/MainWindow.vala:180
 msgid "We're taking off!"
 msgstr ""
 
-#: src/MainWindow.vala:179
+#: src/MainWindow.vala:180
 msgid "The jammer gets started. Plaese hold on a moment."
 msgstr ""
 
-#: src/MainWindow.vala:185
+#: src/MainWindow.vala:186
 msgid "Full power back..."
 msgstr ""
 
-#: src/MainWindow.vala:185
+#: src/MainWindow.vala:186
 msgid "The jammer gets stopped. Please hold on a moment."
 msgstr ""
 
-#: src/MainWindow.vala:190
+#: src/MainWindow.vala:191
 msgid "Bzzzzzz!"
 msgstr ""
 
-#: src/MainWindow.vala:190
+#: src/MainWindow.vala:191
 msgid ""
 "The jammer is <b>active</b> now! Your device should be the only one,\n"
 "which is able to communicate with the WiFi router."
 msgstr ""
 
-#: src/MainWindow.vala:192
+#: src/MainWindow.vala:193
 msgid "Deactivate jammer"
 msgstr ""
 
-#: src/MainWindow.vala:200
+#: src/MainWindow.vala:201
 msgid "That won't work!"
 msgstr ""
 
-#: src/MainWindow.vala:200
+#: src/MainWindow.vala:201
 msgid "You need at least one WiFi interface installed."
 msgstr ""
 
-#: src/MainWindow.vala:201
+#: src/MainWindow.vala:202
 msgid "Exit"
 msgstr ""
 

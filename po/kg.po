@@ -1,0 +1,103 @@
+# Kongo translations for com.github.ronnydo.wammer package.
+# Copyright (C) 2018 THE com.github.ronnydo.wammer'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.ronnydo.wammer package.
+# Automatically generated, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.ronnydo.wammer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-26 01:30-0500\n"
+"PO-Revision-Date: 2018-04-23 22:10-0500\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: kg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/MainWindow.vala:132
+msgid "Select the WiFi interface, which will be used for jamming."
+msgstr ""
+
+#: src/MainWindow.vala:166
+msgid "Everything works fine."
+msgstr ""
+
+#: src/MainWindow.vala:166
+msgid "The jammer is <b>inactive</b>. Your WiFi network will work as usual."
+msgstr ""
+
+#: src/MainWindow.vala:167
+msgid "Activate jammer"
+msgstr ""
+
+#: src/MainWindow.vala:179
+msgid "We're taking off!"
+msgstr ""
+
+#: src/MainWindow.vala:179
+msgid "The jammer gets started. Plaese hold on a moment."
+msgstr ""
+
+#: src/MainWindow.vala:185
+msgid "Full power back..."
+msgstr ""
+
+#: src/MainWindow.vala:185
+msgid "The jammer gets stopped. Please hold on a moment."
+msgstr ""
+
+#: src/MainWindow.vala:190
+msgid "Bzzzzzz!"
+msgstr ""
+
+#: src/MainWindow.vala:190
+msgid ""
+"The jammer is <b>active</b> now! Your device should be the only one,\n"
+"which is able to communicate with the WiFi router."
+msgstr ""
+
+#: src/MainWindow.vala:192
+msgid "Deactivate jammer"
+msgstr ""
+
+#: src/MainWindow.vala:200
+msgid "That won't work!"
+msgstr ""
+
+#: src/MainWindow.vala:200
+msgid "You need at least one WiFi interface installed."
+msgstr ""
+
+#: src/MainWindow.vala:201
+msgid "Exit"
+msgstr ""
+
+#: src/Services/Jammer.vala:41
+msgid "Jammer is busy or already active."
+msgstr ""
+
+#: src/Services/Jammer.vala:82
+#, c-format
+msgid ""
+"Make sure the jamming device \"%s\" is plugged in and connected to a network."
+msgstr ""
+
+#: src/Services/Jammer.vala:96 src/Services/Jammer.vala:147
+msgid "Uppps, something wen't wrong ... Maybe you try it one more time!"
+msgstr ""
+
+#: src/Services/Jammer.vala:141
+#, c-format
+msgid ""
+"Unfortunately the WiFi interface '%s' doesn‘t seem to be supported.\n"
+"Please check %s for more information."
+msgstr ""
+
+#: src/Services/Jammer.vala:272
+#, c-format
+msgid ""
+"Error while stopping jammer process. Try again or kill process manually: "
+"\"sudo kill %s\""
+msgstr ""

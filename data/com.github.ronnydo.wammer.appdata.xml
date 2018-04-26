@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2018 Ronny Dobra <ronnydobra at arcor dot de> -->
+<component type="desktop">
+  <id>com.github.ronnydo.wammer.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+   <project_group>wammer</project_group>
+  <project_license>GPL-3.0+</project_license>
+  <name>Wammer</name>
+  <summary>Jamming your WiFi network</summary>
+  <description>
+    <p>Wammer lets you kick out all clients in your WiFi network, so you can enjoy its full bandwidth. Best part of the story: everything works fully automatically!</p>
+    <p>Wammer uses the aircrack-ng suite and requires a compatible WiFi device to work. For more information see https://gitub.com/ronnydo/wammer</p>
+  </description>
+  ​<categories>
+​    <category>GTK</category>
+​    <category>Utility</category>
+	<category>Network</category>
+	<category>System</category>
+  </categories>
+  <releases>
+	​<release version="0.1.0" date="2018-04-15" urgency="low">
+	​  <description>
+		<ul>
+		  <li>First official release</li>
+		</ul>
+	  </description>
+	​</release>
+​  </releases>
+  <provides>
+	<binary>com.github.ronnydo.colorpicker</binary>
+  </provides>
+  <screenshots>
+	<screenshot type="default">
+      <caption>Jammer is inactive</caption>
+	  <image>https://raw.githubusercontent.com/ronnydo/wammer/master/data/screenshot_inactive.png</image>
+	</screenshot>
+	<screenshot>
+      <caption>Jammer is activated</caption>
+	  <image>https://raw.githubusercontent.com/ronnydo/wammer/master/data/screenshot_active.png</image>
+	</screenshot>
+  </screenshots>
+  <developer_name>Ronny Dobra</developer_name>
+  <url type="homepage">https://github.com/RonnyDo/Wammer</url>
+  <url type="bugtracker">https://github.com/RonnyDo/Wammer/issues</url>
+  <url type="help">https://github.com/RonnyDo/Wammer/</url>
+  <custom>
+     <value key="x-appcenter-color-primary">#34568B</value>
+     <value key="x-appcenter-color-primary-text">#333333</value>
+     <value key="x-appcenter-suggested-price">1</value>
+  </custom>
+</component>
+

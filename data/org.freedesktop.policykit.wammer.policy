@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+"-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+"http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
+<policyconfig>
+    <vendor>wammer</vendor>
+    <vendor_url>https://github.com/ronnydo/wammer</vendor_url>
+    
+    <action id="org.freedesktop.policykit.pkexec.wammer.airmon">
+        <message gettext-domain="wammer">Authentication is required to run Wammer.</message>
+        <icon_name>com.github.ronnydo.wammer</icon_name>
+        <defaults>
+            <allow_any>no</allow_any>
+            <allow_inactive>no</allow_inactive>
+            <allow_active>auth_admin_keep</allow_active>
+        </defaults>
+        <annotate key="org.freedesktop.policykit.exec.path">/usr/sbin/airmon-ng</annotate>
+        <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+    </action>
+    
+    <action id="org.freedesktop.policykit.pkexec.wammer.aireplay">
+        <message gettext-domain="wammer">Authentication is required to run Wammer.</message>
+        <icon_name>com.github.ronnydo.wammer</icon_name>
+        <defaults>
+            <allow_any>no</allow_any>
+            <allow_inactive>no</allow_inactive>
+            <allow_active>auth_admin_keep</allow_active>
+        </defaults>
+        <annotate key="org.freedesktop.policykit.exec.path">/usr/sbin/aireplay-ng</annotate>
+        <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+    </action>
+    
+    <action id="org.freedesktop.policykit.pkexec.wammer.kill">
+        <message gettext-domain="wammer">Authentication is required to run Wammer.</message>
+        <icon_name>com.github.ronnydo.wammer</icon_name>
+        <defaults>
+            <allow_any>no</allow_any>
+            <allow_inactive>no</allow_inactive>
+            <allow_active>auth_admin_keep</allow_active>
+        </defaults>
+        <annotate key="org.freedesktop.policykit.exec.path">/bin/kill</annotate>
+        <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+    </action>
+    
+    
+</policyconfig>

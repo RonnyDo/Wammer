@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.ronnydo.wammer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-26 02:00-0500\n"
+"POT-Creation-Date: 2018-04-27 02:52-0500\n"
 "PO-Revision-Date: 2018-04-23 22:10-0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -18,62 +18,77 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
-#: src/MainWindow.vala:132
+#: src/MainWindow.vala:129
 msgid "Select the WiFi interface, which will be used for jamming."
 msgstr ""
 
-#: src/MainWindow.vala:167
+#: src/MainWindow.vala:165
 msgid "Everything works fine."
 msgstr ""
 
-#: src/MainWindow.vala:167
+#: src/MainWindow.vala:165
 msgid "The jammer is <b>inactive</b>. Your WiFi network will work as usual."
 msgstr ""
 
-#: src/MainWindow.vala:168
+#: src/MainWindow.vala:166
 msgid "Activate jammer"
 msgstr ""
 
-#: src/MainWindow.vala:180
+#: src/MainWindow.vala:178
 msgid "We're taking off!"
 msgstr ""
 
-#: src/MainWindow.vala:180
+#: src/MainWindow.vala:178
 msgid "The jammer gets started. Plaese hold on a moment."
 msgstr ""
 
-#: src/MainWindow.vala:186
+#: src/MainWindow.vala:184
 msgid "Full power back..."
 msgstr ""
 
-#: src/MainWindow.vala:186
+#: src/MainWindow.vala:184
 msgid "The jammer gets stopped. Please hold on a moment."
 msgstr ""
 
-#: src/MainWindow.vala:191
+#: src/MainWindow.vala:189
 msgid "Bzzzzzz!"
 msgstr ""
 
-#: src/MainWindow.vala:191
+#: src/MainWindow.vala:189
 msgid ""
 "The jammer is <b>active</b> now! Your device should be the only one,\n"
 "which is able to communicate with the WiFi router."
 msgstr ""
 
-#: src/MainWindow.vala:193
+#: src/MainWindow.vala:191
 msgid "Deactivate jammer"
 msgstr ""
 
-#: src/MainWindow.vala:201
+#: src/MainWindow.vala:199
 msgid "That won't work!"
 msgstr ""
 
-#: src/MainWindow.vala:201
+#: src/MainWindow.vala:199
 msgid "You need at least one WiFi interface installed."
 msgstr ""
 
-#: src/MainWindow.vala:202
+#: src/MainWindow.vala:200
 msgid "Exit"
+msgstr ""
+
+#: src/MainWindow.vala:208
+msgid "Disclaimer"
+msgstr ""
+
+#: src/MainWindow.vala:208
+msgid ""
+"Jamming WiFi networks might violate certain laws or regulations in your "
+"country.\n"
+"You are using this software on your own risk!"
+msgstr ""
+
+#: src/MainWindow.vala:209
+msgid "Got it!"
 msgstr ""
 
 #: src/Services/Jammer.vala:41
@@ -97,7 +112,7 @@ msgid ""
 "Please check %s for more information."
 msgstr ""
 
-#: src/Services/Jammer.vala:272
+#: src/Services/Jammer.vala:246
 #, c-format
 msgid ""
 "Error while stopping jammer process. Try again or kill process manually: "

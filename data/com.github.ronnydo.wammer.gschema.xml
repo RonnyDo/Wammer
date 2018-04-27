@@ -13,8 +13,8 @@
             <summary>Most recent y position of app window</summary>
             <description>Most recent y position of app window</description>
         </key>
-        <key name="accepted-spoiler" type="i">
-	        <default>0</default>
+        <key name="accept-disclaimer" type="b">
+	        <default>false</default>
 	        <summary>Accepted legal information spoiler</summary>
 	        <description>Accepted legal information spoiler</description>
         </key>

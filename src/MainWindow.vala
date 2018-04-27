@@ -30,7 +30,8 @@ namespace Wammer {
         STARTING,
         STOPPING,
         ACTIVE,
-        NOINTERFACE
+        NOINTERFACE,
+        DISCLAIMER
     }
     
     public class MainWindow : Gtk.Window {
@@ -63,6 +64,9 @@ namespace Wammer {
         
         // no interface stack 
         Granite.Widgets.AlertView no_interface_view;  
+                
+        // disclaimer stack 
+        Granite.Widgets.AlertView disclaimer_view;  
          
                 
         public MainWindow () {
@@ -100,11 +104,6 @@ namespace Wammer {
             });
                         
             build_ui ();  
-            
-            this.destroy.connect (() => {
-                // TODO test if it works
-                // jammer.kill ();            
-            });    
         }
         
                                 
@@ -115,11 +114,9 @@ namespace Wammer {
             this.resizable = false;   
             this.window_position = Gtk.WindowPosition.CENTER; 
             
-            // TODO check on startup if application is installed (like with wifi interfaces)
+            // TODO check on startup if airmon + aireplay is installed (like with wifi interfaces)
             // workaround 1: in main meson.build: run_command('sudo', 'apt', 'install', 'aircrack-ng')
             // workaround 2: add on startup (or on running the command) if Aircrack is installed. if not show error
-            // TODO meson build with aircrack dependency      
-            // TODO keep sudo -> check options <allow_active>auth_admin_keep</allow_active>
             
             // headerbar
             headerbar = new Gtk.HeaderBar ();
@@ -153,11 +150,10 @@ namespace Wammer {
             infobar.set_message_type (Gtk.MessageType.WARNING);
             infobar_container = infobar.get_content_area (); 
             infobar_label = new Gtk.Label ("");
+            infobar_label.set_use_markup (true);
             infobar_container.add (infobar_label);
             main_box.pack_start (infobar);
-                        
-            // TODO disclaimer message which has to be accepted -> could be an AlertView as well, e.g with an "Accept" button 
-            // text from readme.md
+                                                
             stack = new Gtk.Stack ();
             stack.transition_type = Gtk.StackTransitionType.SLIDE_LEFT_RIGHT;
             main_box.pack_start (stack);
@@ -183,7 +179,7 @@ namespace Wammer {
             
             
             // stopping stack
-            stopping_view = new Granite.Widgets.AlertView (_("Full power back..."), _("The jammer gets stopped. Please hold on a moment."), "process-stop");
+            stopping_view = new Granite.Widgets.AlertView (_("Full power back..."), _("The jammer gets stopped. Please hold on a moment."), "edit-clear");
             stack.add_titled (stopping_view, "stopping_stack", "stopping_stack");
             
             
@@ -205,24 +201,44 @@ namespace Wammer {
             });            
             stack.add_titled (no_interface_view, "no_interface_stack", "no_interface_stack");
                  
+                 
+            // disclaimer stack
+            disclaimer_view = new Granite.Widgets.AlertView (_("Disclaimer"), _("Jamming WiFi networks might violate certain laws or regulations in your country.\nYou are using this software on your own risk!"), "dialog-warning");
+            disclaimer_view.show_action (_("Got it!"));
+            disclaimer_view.action_activated.connect (() => {
+                settings.accept_disclaimer = true;
+                toggleUIState (UIState.INACTIVE);
+            });
+            main_box.pack_start (disclaimer_view);
+            
                                   
             this.show_all ();
             
+            // hide infobar initially
             infobar.hide ();
             
-            if (interface_list.length () > 0 ) {
-                toggleUIState (UIState.INACTIVE);
-            } else {
-                toggleUIState (UIState.NOINTERFACE);
-            }            
+            toggleUIState (UIState.INACTIVE);
         }
         
         private void toggleUIState (UIState state) {
             switch (state) {
                 case UIState.INACTIVE:
-                    interface_chooser.set_sensitive (true);
-                    this.set_deletable (true);
-                    stack.set_visible_child_full ("inactive_stack", Gtk.StackTransitionType.SLIDE_RIGHT); 
+                    if (!settings.accept_disclaimer) {
+                        // show disclaimer of not accepted
+                        toggleUIState (UIState.DISCLAIMER);
+                    } else {
+                        // hide disclaimer in case and show stack
+                        stack.show ();
+                        disclaimer_view.hide ();
+                        if (interface_list.length () < 1 ) {
+                            // show error if no interface was found
+                            toggleUIState (UIState.NOINTERFACE);
+                        } else {
+                            interface_chooser.set_sensitive (true);
+                            this.set_deletable (true);
+                            stack.set_visible_child_full ("inactive_stack", Gtk.StackTransitionType.SLIDE_RIGHT);
+                        }
+                    }
                     break;
                 case UIState.STARTING:
                     infobar.hide ();
@@ -231,17 +247,25 @@ namespace Wammer {
                     stack.set_visible_child_full ("starting_stack", Gtk.StackTransitionType.SLIDE_LEFT); 
                     break;
                 case UIState.STOPPING:
+                    interface_chooser.set_sensitive (false);
                     this.set_deletable (false);
                     stack.set_visible_child_full ("stopping_stack", Gtk.StackTransitionType.SLIDE_RIGHT); 
                     break;
                 case UIState.ACTIVE:   
+                    interface_chooser.set_sensitive (false);
                     this.set_deletable (false);
                     stack.set_visible_child_full ("active_stack", Gtk.StackTransitionType.SLIDE_LEFT); 
                     break;
                 case UIState.NOINTERFACE:
+                    interface_chooser.set_sensitive (false);
                     this.set_deletable (true);   
                     stack.set_visible_child_full ("no_interface_stack", Gtk.StackTransitionType.SLIDE_RIGHT); 
                     break;
+               case UIState.DISCLAIMER:
+                   stack.hide ();
+                   disclaimer_view.show ();
+                   interface_chooser.set_sensitive (false);
+                   break;
             }       
         }
     }

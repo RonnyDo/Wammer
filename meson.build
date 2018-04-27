@@ -23,6 +23,7 @@ executable(
     'src/Services/Jammer.vala',
     'src/Services/JammerState.vala',
     'src/Utils/Utils.vala',
+    'src/Services/Settings.vala',
     c_args: c_args,
     dependencies: [
         dependency('glib-2.0'),
@@ -33,20 +34,12 @@ executable(
     install : true
 )
 
-message('install aircrack by running command "sudo apt install aircrack-ng"')
-if run_command('sudo', 'apt', 'install', 'aircrack-ng').returncode() == 0
-    message ('aircrack-ng installation successful') 
-else
-    message ('aircrack-ng installation failed')
-endif
-
-#r = run_command('sudo', 'apt', 'install', 'aircrack-ng')
-#if r.returncode() != 0
-#    # it failed
+#message('install aircrack by running command "sudo apt install aircrack-ng"')
+#if run_command('sudo', 'apt', 'install', 'aircrack-ng').returncode() == 0
+#    message ('aircrack-ng installation successful') 
+#else
+#    message ('aircrack-ng installation failed')
 #endif
-#output = r.stdout().strip()
-#errortxt = r.stderr().strip()
-
 
 meson.add_install_script('meson/post_install.py')
 

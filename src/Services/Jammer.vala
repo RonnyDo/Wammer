@@ -139,7 +139,7 @@ namespace Wammer.Services {
                             start_jamming (monitor_interface, mac);
                         } else {  
                             string m = _("Unfortunately the WiFi interface '%s' doesn‘t seem to be supported.\nPlease check %s for more information.");
-                            message (m.printf (interface, "https://www.github.com/ronnydo/wammer/"));
+                            message (m.printf (interface, "<a href=\"https://www.github.com/ronnydo/wammer/\">https://www.github.com/ronnydo/wammer/</a>"));
                             warning ("Monitor interface couldn't be created from interface %s. airmon-ng output was: %s\n", interface, stdout_text);
                             reset_default ();
                         }
@@ -170,7 +170,7 @@ namespace Wammer.Services {
                 set_state (JammerState.ACTIVE);
                 info ("Jamming process launched!");                  
                 
-                InputStream stdout_stream = jammer_subprocess.get_stdout_pipe (); 
+                //InputStream stdout_stream = jammer_subprocess.get_stdout_pipe (); 
                 
                 debug ("execute command: %s", Utils.Utils.cmd_to_string (cmd));
                 jammer_subprocess.wait_check_async.begin (null, (obj, res) => {
@@ -218,33 +218,7 @@ namespace Wammer.Services {
                 set_state (JammerState.INACTIVE);
             }
         }
-        
-        /*
-         * Force the jammer to exit. Works synchronously.
-         */ 
-        public void kill () {
-            // FIXME the jammer get's stopped but the asynchronous stop_monitor_mode function isn't completed.
-            // so the monitor mode device stays enabled...
-            // Solution: show popup window "stop first"
-            set_state (JammerState.STOPPING);
-            if (jammer_subprocess != null) {
-                string id = jammer_subprocess.get_identifier ();  
-                string[] cmd = {"pkexec", "kill", id};
-                var launcher = new SubprocessLauncher (SubprocessFlags.STDOUT_PIPE);
-                try {
-                    var subprocess = launcher.spawnv (cmd);
-                    
-                    info ("try to kill jammer process with id %s",jammer_subprocess.get_identifier ()); 
-                    
-                    debug ("execute command: %s", Utils.Utils.cmd_to_string (cmd));
-                    subprocess.wait_check ();
-                    jammer_subprocess = null;
-                } catch (Error e) {
-                    warning ("Exception while killing jamming process: %s", e.message);
-                }
-            }                     
-        }
-                
+                        
         /*
          * Try to stop jammer
          */ 

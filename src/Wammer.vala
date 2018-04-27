@@ -20,6 +20,10 @@
 */
 
 namespace Wammer {
+
+    // namespace-wide variable
+    public Services.Settings settings;
+    
     public class Wammer : Gtk.Application {
 
         MainWindow mainwindow;
@@ -48,6 +52,8 @@ namespace Wammer {
                 mainwindow.present ();
                 return;
             }
+    
+            settings = Services.Settings.get_instance ();
 
             mainwindow = new MainWindow ();
             mainwindow.set_application (this);

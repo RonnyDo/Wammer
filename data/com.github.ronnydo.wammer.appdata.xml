@@ -9,7 +9,7 @@
   <summary>Jamming your WiFi network</summary>
   <description>
     <p>Wammer lets you kick out all clients in your WiFi network, so you can enjoy its full bandwidth. Best part of the story: everything works fully automatically!</p>
-    <p>Wammer uses the aircrack-ng suite and requires a compatible WiFi device to work. For more information see https://gitub.com/ronnydo/wammer</p>
+    <p>In order to work Wammer needs the aircrack-ng installed and a compatible WiFi device to work. For more information see <url>https://gitub.com/ronnydo/wammer</url></p>
   </description>
   ​<categories>
 ​    <category>GTK</category>
@@ -18,6 +18,13 @@
 	<category>System</category>
   </categories>
   <releases>
+  	​<release version="0.0.2" date="2018-04-27" urgency="medium">
+  	​  <description>
+  		<ul>
+  		  <li>fix issue Invalid AppData file (issue #1)</li>
+  		</ul>
+  	  </description>
+  	​</release>
 	​<release version="0.0.1" date="2018-04-27" urgency="medium">
 	​  <description>
 		<ul>

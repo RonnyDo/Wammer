@@ -1,8 +1,14 @@
+com.github.ronnydo.wammer (0.0.3) xenial; urgency=medium
+
+  * fix issue Invalid AppData file (issue #2)      
+  
+ -- Ronny Dobra <ronnydobra at arcor dot de>  Thu, 27 Apr 2018 13:32:00 +0100
+ 
 com.github.ronnydo.wammer (0.0.2) xenial; urgency=medium
 
   * fix issue Invalid AppData file (issue #1)      
   
- -- Ronny Dobra <ronnydobra at arcor dot de>  Thu, 27 Apr 2018 13:30:00 +0100
+ -- Ronny Dobra <ronnydobra at arcor dot de>  Thu, 27 Apr 2018 13:31:00 +0100
 
 com.github.ronnydo.wammer (0.0.1) xenial; urgency=medium
 

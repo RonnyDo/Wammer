@@ -1,8 +1,16 @@
+com.github.ronnydo.wammer (0.0.6) xenial; urgency=medium
+
+  * Fix "Add aircrack-ng as a dependency" (issue #4)
+  * Fix "Mention legality disclaimer in description" (issue #5)
+  * Bonus:add some pixie dust
+  
+ -- Ronny Dobra <ronnydobra at arcor dot de>  Thu, 01 May 2018 23:35:00 +0100
+
 com.github.ronnydo.wammer (0.0.5) xenial; urgency=medium
 
   * Fix "Add aircrack-ng as a dependency" (issue #4)
   * Fix "Mention legality disclaimer in description" (issue #5)
-  * Bonus:added some pixie dust
+  * Bonus:add some pixie dust
   
  -- Ronny Dobra <ronnydobra at arcor dot de>  Thu, 01 May 2018 23:33:00 +0100
 

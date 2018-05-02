@@ -1,3 +1,11 @@
+com.github.ronnydo.wammer (0.0.5) xenial; urgency=medium
+
+  * Fix "Add aircrack-ng as a dependency" (issue #4)
+  * Fix "Mention legality disclaimer in description" (issue #5)
+  * Bonus:added some pixie dust
+  
+ -- Ronny Dobra <ronnydobra at arcor dot de>  Thu, 01 May 2018 23:33:00 +0100
+
 com.github.ronnydo.wammer (0.0.4) xenial; urgency=medium
 
   * fix issue Invalid AppData file (issue #3)      

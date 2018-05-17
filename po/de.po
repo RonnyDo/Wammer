@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.ronnydo.wammer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-27 02:52-0500\n"
+"POT-Creation-Date: 2018-05-17 07:31-0500\n"
 "PO-Revision-Date: 2018-04-26 01:59-0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -21,72 +21,72 @@ msgstr ""
 msgid "Select the WiFi interface, which will be used for jamming."
 msgstr ""
 
-#: src/MainWindow.vala:165
+#: src/MainWindow.vala:163
 msgid "Everything works fine."
 msgstr ""
 
-#: src/MainWindow.vala:165
+#: src/MainWindow.vala:163
 msgid "The jammer is <b>inactive</b>. Your WiFi network will work as usual."
 msgstr ""
 
-#: src/MainWindow.vala:166
+#: src/MainWindow.vala:164
 msgid "Activate jammer"
 msgstr "Activate jammer"
 
-#: src/MainWindow.vala:178
+#: src/MainWindow.vala:176
 msgid "We're taking off!"
 msgstr ""
 
-#: src/MainWindow.vala:178
-msgid "The jammer gets started. Plaese hold on a moment."
+#: src/MainWindow.vala:176
+msgid "The jammer gets started. Please hold on a moment."
 msgstr ""
 
-#: src/MainWindow.vala:184
+#: src/MainWindow.vala:182
 msgid "Full power back..."
 msgstr ""
 
-#: src/MainWindow.vala:184
+#: src/MainWindow.vala:182
 msgid "The jammer gets stopped. Please hold on a moment."
 msgstr ""
 
-#: src/MainWindow.vala:189
+#: src/MainWindow.vala:187
 msgid "Bzzzzzz!"
 msgstr ""
 
-#: src/MainWindow.vala:189
+#: src/MainWindow.vala:187
 msgid ""
 "The jammer is <b>active</b> now! Your device should be the only one,\n"
 "which is able to communicate with the WiFi router."
 msgstr ""
 
-#: src/MainWindow.vala:191
+#: src/MainWindow.vala:189
 msgid "Deactivate jammer"
 msgstr ""
 
-#: src/MainWindow.vala:199
+#: src/MainWindow.vala:197
 msgid "That won't work!"
 msgstr ""
 
-#: src/MainWindow.vala:199
+#: src/MainWindow.vala:197
 msgid "You need at least one WiFi interface installed."
 msgstr ""
 
-#: src/MainWindow.vala:200
+#: src/MainWindow.vala:198
 msgid "Exit"
 msgstr ""
 
-#: src/MainWindow.vala:208
+#: src/MainWindow.vala:206
 msgid "Disclaimer"
 msgstr ""
 
-#: src/MainWindow.vala:208
+#: src/MainWindow.vala:206
 msgid ""
 "Jamming WiFi networks might violate certain laws or regulations in your "
 "country.\n"
 "You are using this software on your own risk!"
 msgstr ""
 
-#: src/MainWindow.vala:209
+#: src/MainWindow.vala:207
 msgid "Got it!"
 msgstr ""
 

@@ -173,7 +173,7 @@ namespace Wammer {
             
             
             // starting stack
-            starting_view = new Granite.Widgets.AlertView (_("We're taking off!"), _("The jammer gets started. Plaese hold on a moment."), "airplane-mode");
+            starting_view = new Granite.Widgets.AlertView (_("We're taking off!"), _("The jammer gets started. Please hold on a moment."), "airplane-mode");
             // alt logo system-run
             stack.add_titled (starting_view, "starting_stack", "starting_stack");
             

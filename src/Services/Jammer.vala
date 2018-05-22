@@ -79,7 +79,7 @@ namespace Wammer.Services {
                             string mac = Utils.Utils.extract_mac (stdout_text);
                                                         
                             if (mac == "") {
-                                string m = _("Make sure the jamming device \"%s\" is plugged in and connected to a network.");
+                                string m = _("Make sure the WiFi interface '%s' is plugged in and connected to a network.");
                                 message (m.printf (interface_name));
                                 warning ("Router MAC couldn't determined. Make sure the device is plugged in and the interface is connected to a network.");
                                 reset_default ();
@@ -243,7 +243,7 @@ namespace Wammer.Services {
                             //jammer_subprocess = null;
                             info ("Kill request for process %s successfully sent.", id);
                         } catch (Error e) {
-                            string m = _("Error while stopping jammer process. Try again or kill process manually: \"sudo kill %s\"");
+                            string m = _("Error while stopping jammer process. Try again or kill process manually: 'sudo kill %s'");
                             message (m.printf (id));
                             warning ("Exception while running jammer kill command: %s\n", e.message);
                         } 

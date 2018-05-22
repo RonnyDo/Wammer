@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.ronnydo.wammer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-17 07:31-0500\n"
+"POT-Creation-Date: 2018-05-22 15:37-0500\n"
 "PO-Revision-Date: 2018-04-23 22:10-0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -98,7 +98,7 @@ msgstr ""
 #: src/Services/Jammer.vala:82
 #, c-format
 msgid ""
-"Make sure the jamming device \"%s\" is plugged in and connected to a network."
+"Make sure the WiFi interface '%s' is plugged in and connected to a network."
 msgstr ""
 
 #: src/Services/Jammer.vala:96 src/Services/Jammer.vala:147
@@ -116,5 +116,5 @@ msgstr ""
 #, c-format
 msgid ""
 "Error while stopping jammer process. Try again or kill process manually: "
-"\"sudo kill %s\""
+"'sudo kill %s'"
 msgstr ""

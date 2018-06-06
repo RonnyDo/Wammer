@@ -27,7 +27,7 @@ On elementaryOS simply install Wammer from AppCenter:
 Otherwise you can download and install the [latest .deb file](https://www.github.com/ronnydo/wammer/releases/latest).
 
 ### Install aircrack-ng
-The aircrack-ng suite is a bunch of WiFi (hacking) tools. You can simply install it from the Ubuntu Softare repository:
+The aircrack-ng suite is a bunch of WiFi (hacking) tools. You can simply install it from the Ubuntu Software repository:
     ```sudo apt install aircrack-ng```
 
 ### WiFi device

@@ -1,3 +1,11 @@
+com.github.ronnydo.wammer (1.0.0) xenial; urgency=medium
+
+  * Hans! Hol den Flammenwerfer!" - Added German translation
+  * Small typo fix
+  * No bigger issues so far means first main release!!1!
+  
+ -- Ronny Dobra <ronnydobra at arcor dot de>  Wed, 06 Jun 2018 18:44:00 +0100
+
 com.github.ronnydo.wammer (0.0.6) xenial; urgency=medium
 
   * Fix "Add aircrack-ng as a dependency" (issue #4)

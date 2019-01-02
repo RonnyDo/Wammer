@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2018 Ronny Dobra <ronnydobra at arcor dot de> -->
 <component type="desktop">
-  <id>com.github.ronnydo.wammer.desktop</id>
+  <id>com.github.ronnydo.wammer</id>
   <metadata_license>CC0-1.0</metadata_license>
    <project_group>wammer</project_group>
   <project_license>GPL-3.0+</project_license>
@@ -19,6 +19,13 @@
 	<category>System</category>
   </categories>
   <releases>
+  	​<release version="1.1.0" date="2019-01-02" urgency="medium">
+  	​  <description>
+  		<ul>
+  		  <li>Juno Release!!1!</li>
+  		</ul>
+  	  </description>
+  	​</release>
   	​<release version="1.0.0" date="2018-06-06" urgency="medium">
   	​  <description>
   		<ul>

@@ -2,12 +2,11 @@ Source: com.github.ronnydo.wammer
 Section: x11
 Priority: extra
 Maintainer: Ronny Dobra <ronnydobra@arcor.de>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 10.5.1),
                libgranite-dev,
                libgtk-3-dev,
                meson,
                valac
-Standards-Version: 4.1.1
 
 Package: com.github.ronnydo.wammer
 Architecture: any

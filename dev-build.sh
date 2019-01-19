@@ -1,7 +1,7 @@
 sudo rm -r build
 meson build
 cd build
-mesonconf -Dprefix=/usr
+meson --reconfigure -Dprefix=/usr
 ninja
 
 # Building language potfiles in /po directory

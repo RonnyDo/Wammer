@@ -1,121 +1,132 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the extra package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Dutch translations for com.github.ronnydo.wammer package.
+# Copyright (C) 2018 THE com.github.ronnydo.wammer'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.ronnydo.wammer package.
+# Automatically generated, 2018.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: extra\n"
+"Project-Id-Version: com.github.ronnydo.wammer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-24 19:21+0100\n"
-"PO-Revision-Date: 2019-11-09 12:20+0100\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2019-01-19 18:33+0400\n"
+"PO-Revision-Date: 2019-11-09 13:54+0100\n"
+"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
+"Language-Team: none\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.4\n"
-"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: nl\n"
+"X-Generator: Poedit 2.2.4\n"
 
-#: data/com.github.rapidfingers.translator.appdata.xml.in:7
-#: data/com.github.rapidfingers.translator.appdata.xml.in:9
-#: data/com.github.rapidfingers.translator.desktop.in:3
-msgid "Translator"
-msgstr "Vertaler"
+#: src/MainWindow.vala:129
+msgid "Select the WiFi interface, which will be used for jamming."
+msgstr "Kies het Wi-Fi-apparaat dat je wilt gebruiken voor blokkades."
 
-#: data/com.github.rapidfingers.translator.appdata.xml.in:8
-msgid "RapidFingers"
-msgstr "RapidFingers"
+#: src/MainWindow.vala:163
+msgid "Everything works fine."
+msgstr "Alles is in orde."
 
-#: data/com.github.rapidfingers.translator.appdata.xml.in:11
-msgid "Simple and fast translator"
-msgstr "Eenvoudige, snelle vertaaltoepassing"
+#: src/MainWindow.vala:163
+msgid "The jammer is <b>inactive</b>. Your WiFi network will work as usual."
+msgstr ""
+"Er wordt <b>niks</b> geblokkeerd. Je Wi-Fi-netwerk werkt zoals "
+"gebruikelijk."
 
-#: data/com.github.rapidfingers.translator.appdata.xml.in:30
-msgid "Serbian language"
-msgstr "Servische taal"
+#: src/MainWindow.vala:164
+msgid "Activate jammer"
+msgstr "Blokkade opwerpen"
 
-#: data/com.github.rapidfingers.translator.appdata.xml.in:31
-msgid "Fix desktop file"
-msgstr "Reparaties aan het .desktop-bestand"
+#: src/MainWindow.vala:176
+msgid "We're taking off!"
+msgstr "We rijden het station uit!"
 
-#: data/com.github.rapidfingers.translator.appdata.xml.in:38
-msgid "Slovak language"
-msgstr "Slowaakse taal"
+#: src/MainWindow.vala:176
+msgid "The jammer gets started. Please hold on a moment."
+msgstr "De blokkade wordt opgeworpen; even geduld..."
 
-#: data/com.github.rapidfingers.translator.appdata.xml.in:39
-msgid "Translate progress"
-msgstr "Vertaalvoortgang"
+#: src/MainWindow.vala:182
+msgid "Full power back..."
+msgstr "We nemen kracht terug..."
 
-#: data/com.github.rapidfingers.translator.appdata.xml.in:46
-msgid "Fix for dark theme"
-msgstr "Foutoplossing voor donker thema"
+#: src/MainWindow.vala:182
+msgid "The jammer gets stopped. Please hold on a moment."
+msgstr "De blokkade wordt opgeheven; even geduld..."
 
-#: data/com.github.rapidfingers.translator.appdata.xml.in:53
-msgid "Homepage fix"
-msgstr "Foutoplossing voor website"
+#: src/MainWindow.vala:187
+msgid "Bzzzzzz!"
+msgstr "Bzzzzzz!"
 
-#: data/com.github.rapidfingers.translator.appdata.xml.in:60
-msgid "System icons"
-msgstr "Systeempictogrammen"
+#: src/MainWindow.vala:187
+msgid ""
+"The jammer is <b>active</b> now! Your device should be the only one,\n"
+"which is able to communicate with the WiFi router."
+msgstr ""
+"De blokkade is <b>opgeworpen</b>! Je apparaat zou nu het enige apparaat\n"
+"moeten zijn dat kan communiceren met je Wi-Fi-router."
 
-#: data/com.github.rapidfingers.translator.appdata.xml.in:61
-msgid "Better dark theme look"
-msgstr "Verbeterd donker thema"
+#: src/MainWindow.vala:189
+msgid "Deactivate jammer"
+msgstr "Blokkade opheffen"
 
-#: data/com.github.rapidfingers.translator.appdata.xml.in:68
-msgid "Toast message if no connection to server"
-msgstr "Bericht bij geen verbinding met server"
+#: src/MainWindow.vala:197
+msgid "That won't work!"
+msgstr "Dát gaat niet werken!"
 
-#: data/com.github.rapidfingers.translator.appdata.xml.in:69
-msgid "Fix ugly text selection color"
-msgstr "Lelijke tekstselectiekleur gerepareerd"
+#: src/MainWindow.vala:197
+msgid "You need at least one WiFi interface installed."
+msgstr "Je moet minimaal één Wi-Fi-apparaat aan boord hebben."
 
-#: data/com.github.rapidfingers.translator.appdata.xml.in:70
-msgid "Minor bugfix"
-msgstr "Kleine foutoplossing"
+#: src/MainWindow.vala:198
+msgid "Exit"
+msgstr "Afsluiten"
 
-#: data/com.github.rapidfingers.translator.appdata.xml.in:77
-msgid "Timeout before translate"
-msgstr "Time-out alvorens te vertalen"
+#: src/MainWindow.vala:206
+msgid "Disclaimer"
+msgstr "Vrijwaringsclausule"
 
-#: data/com.github.rapidfingers.translator.appdata.xml.in:78
-msgid "Fix useless translate on language combobox click"
-msgstr "Onnodige klik voor vertalen opgelost"
+#: src/MainWindow.vala:206
+msgid ""
+"Jamming WiFi networks might violate certain laws or regulations in your "
+"country.\n"
+"You are using this software on your own risk!"
+msgstr ""
+"Het blokkeren van Wi-Fi-netwerken kan bepaalde landswetten overtreden.\n"
+"Gebruik van deze software is op eigen risico!"
 
-#: data/com.github.rapidfingers.translator.appdata.xml.in:79
-msgid "Fixed lack of translation, when text is changed during the transfer"
-msgstr "Opgelost: geen vertaling tijdens aanpassing tijdens het vertaalproces"
+#: src/MainWindow.vala:207
+msgid "Got it!"
+msgstr "Ik begrijp het!"
 
-#: data/com.github.rapidfingers.translator.appdata.xml.in:86
-msgid "Fixes for Juno"
-msgstr "Foutoplossingen omtrent Juno"
+#: src/Services/Jammer.vala:41
+msgid "Jammer is busy or already active."
+msgstr "Jammer is bezig of reeds actief."
 
-#: data/com.github.rapidfingers.translator.appdata.xml.in:93
-msgid "Clear button (thanks to camellan)"
-msgstr "Wisknop, met dank aan @camellan"
+#: src/Services/Jammer.vala:82
+#, c-format
+msgid ""
+"Make sure the WiFi interface '%s' is plugged in and connected to a network."
+msgstr ""
+"Controleer of het Wi-Fi-apparaat '%s' is aangekoppeld en verbonden met een "
+"netwerk."
 
-#: data/com.github.rapidfingers.translator.appdata.xml.in:94
-msgid "Copy button (thanks to camellan)"
-msgstr "Kopieerknop, met dank aan @camellan"
+#: src/Services/Jammer.vala:96 src/Services/Jammer.vala:147
+msgid "Uppps, something wen't wrong ... Maybe you try it one more time!"
+msgstr "Oeps, er is iets misgegaan... Probeer het nog eens!"
 
-#: data/com.github.rapidfingers.translator.appdata.xml.in:95
-msgid "More languages and translations (thanks to camellan)"
-msgstr "Meer talen en vertalingen, met dank aan @camellan"
+#: src/Services/Jammer.vala:141
+#, c-format
+msgid ""
+"Unfortunately the WiFi interface '%s' doesn‘t seem to be supported.\n"
+"Please check %s for more information."
+msgstr ""
+"Het Wi-Fi-apparaat '%s' lijkt niet te worden ondersteund.\n"
+"Bekijk '%s' voor meer informatie."
 
-#: data/com.github.rapidfingers.translator.appdata.xml.in:96
-msgid "Bug fixes (thanks to camellan)"
-msgstr "Foutoplossingen, met dank aan @camellan"
-
-#: data/com.github.rapidfingers.translator.desktop.in:4
-msgid "Translator App"
-msgstr "Vertaaltoepassing"
-
-#: data/com.github.rapidfingers.translator.desktop.in:5
-msgid "Language translator"
-msgstr "Vertaler"
-
-#: data/com.github.rapidfingers.translator.desktop.in:8
-msgid "com.github.rapidfingers.translator"
-msgstr "com.github.rapidfingers.translator"
+#: src/Services/Jammer.vala:246
+#, c-format
+msgid ""
+"Error while stopping jammer process. Try again or kill process manually: "
+"'sudo kill %s'"
+msgstr ""
+"Er is een fout opgetreden tijdens het afsluiten van het Jammer-proces. "
+"Probeer het opnieuw of handmatig: 'sudo kill %s'"

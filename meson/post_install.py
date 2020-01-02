@@ -9,4 +9,5 @@ if not os.environ.get('DESTDIR'):
     print('Compiling gsettings schemas...')
     subprocess.call(['glib-compile-schemas', schemadir])
 
-subprocess.call(['sudo', 'apt', 'install', 'aircrack-ng', '-y'])
+#subprocess.call(['sudo', 'apt', 'install', 'aircrack-ng', '-y'])
+subprocess.call(['apt', 'install', 'aircrack-ng', '-y'])

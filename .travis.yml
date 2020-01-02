@@ -25,4 +25,4 @@ install:
   - npm i -g @elementaryos/houston
 
 script:
-  - houston cigit 
+  - houston ci

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.ronnydo.wammer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-19 18:33+0400\n"
+"POT-Creation-Date: 2020-01-02 18:19+0100\n"
 "PO-Revision-Date: 2019-11-09 13:54+0100\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: none\n"
@@ -29,8 +29,7 @@ msgstr "Alles is in orde."
 #: src/MainWindow.vala:163
 msgid "The jammer is <b>inactive</b>. Your WiFi network will work as usual."
 msgstr ""
-"Er wordt <b>niks</b> geblokkeerd. Je Wi-Fi-netwerk werkt zoals "
-"gebruikelijk."
+"Er wordt <b>niks</b> geblokkeerd. Je Wi-Fi-netwerk werkt zoals gebruikelijk."
 
 #: src/MainWindow.vala:164
 msgid "Activate jammer"

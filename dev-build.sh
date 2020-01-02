@@ -5,9 +5,11 @@ meson --reconfigure -Dprefix=/usr
 ninja
 
 # Building language potfiles in /po directory
-ninja com.github.ronnydo.wammer-pot
-ninja com.github.ronnydo.wammer-update-po
+#ninja com.github.ronnydo.wammer-pot
+#ninja com.github.ronnydo.wammer-update-po
 
-sudo ninja install
+# Is this necessary to install al languages?
+#sudo ninja install
+
 G_MESSAGES_DEBUG=all ./com.github.ronnydo.wammer
 cd ..

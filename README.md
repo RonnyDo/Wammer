@@ -1,3 +1,8 @@
+[![Build Status](https://travis-ci.com/RonnyDo/Wammer.svg?branch=master)](https://travis-ci.com/RonnyDo/Wammer)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Snap Status](https://build.snapcraft.io/badge/ronnydo/wammer.svg)](https://build.snapcraft.io/user/ronnydo/wammer)
+
+
 # Wammer
 
 Wammer lets you kick out all clients in your WiFi network, so you can enjoy its full bandwidth. Best part of the story: everything works fully automatically!

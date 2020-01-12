@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2018 Ronny Dobra (https://github.com/RonnyDo/Wammer)
+* Copyright (C) 2020 Ronny Dobra (https://github.com/RonnyDo/Wammer)
 *
 * This program is free software; you can redistribute it and/or
 * modify it under the terms of the GNU General Public

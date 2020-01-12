@@ -16,4 +16,5 @@ if not environ.get('DESTDIR'):
     print('Updating icon cache…')
     subprocess.call(['gtk-update-icon-cache', '-qtf', path.join(datadir, 'icons', 'hicolor')])
 
+
 #subprocess.call(['sudo', 'apt', 'install', 'aircrack-ng', '-y'])

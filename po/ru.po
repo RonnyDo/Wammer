@@ -1,13 +1,13 @@
 # Russian translations for com.github.ronnydo.wammer package.
-# Copyright (C) 2018 THE com.github.ronnydo.wammer'S COPYRIGHT HOLDER
+# Copyright (C) 2020 THE com.github.ronnydo.wammer'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the com.github.ronnydo.wammer package.
-# Automatically generated, 2018.
+# Andrey Kultyapov <camellan@yandex.ru>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: com.github.ronnydo.wammer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-02 18:19+0100\n"
+"POT-Creation-Date: 2020-01-12 10:27+0100\n"
 "PO-Revision-Date: 2019-01-19 18:33+0400\n"
 "Last-Translator: Andrey Kultyapov <camellan@yandex.ru>\n"
 "Language-Team: none\n"

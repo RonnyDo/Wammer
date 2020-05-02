@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <schemalist>
-    <schema path="/com/github/ronnydo/wammer/"
-    id="com.github.ronnydo.wammer"
-    gettext-domain="com.github.ronnydo.wammer">
+    <schema path="/com/github/ronnydo/wammer/" id="com.github.ronnydo.wammer" gettext-domain="com.github.ronnydo.wammer">
         <key name="window-x" type="i">
             <default>-1</default>
             <summary>Most recent x position of app window</summary>
@@ -14,10 +12,9 @@
             <description>Most recent y position of app window</description>
         </key>
         <key name="accept-disclaimer" type="b">
-	        <default>false</default>
-	        <summary>Accepted legal information spoiler</summary>
-	        <description>Accepted legal information spoiler</description>
+            <default>false</default>
+            <summary>Accepted legal information spoiler</summary>
+            <description>Accepted legal information spoiler</description>
         </key>
     </schema>
 </schemalist>
-

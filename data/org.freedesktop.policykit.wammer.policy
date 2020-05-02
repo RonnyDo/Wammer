@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE policyconfig PUBLIC
-"-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
-"http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN" "http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
 <policyconfig>
     <vendor>wammer</vendor>
     <vendor_url>https://github.com/ronnydo/wammer</vendor_url>
-    
     <action id="org.freedesktop.policykit.pkexec.wammer.airmon">
         <message gettext-domain="wammer">Authentication is required to start jamming.</message>
         <icon_name>com.github.ronnydo.wammer</icon_name>
@@ -18,7 +15,6 @@
         <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
         <annotate key="org.freedesktop.policykit.imply">org.freedesktop.policykit.pkexec.wammer.aireplay org.freedesktop.policykit.pkexec.wammer.kill</annotate>
     </action>
-    
     <action id="org.freedesktop.policykit.pkexec.wammer.aireplay">
         <message gettext-domain="wammer">Authentication is required to start jamming.</message>
         <icon_name>com.github.ronnydo.wammer</icon_name>
@@ -31,7 +27,6 @@
         <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
         <annotate key="org.freedesktop.policykit.imply">org.freedesktop.policykit.pkexec.wammer.airmon org.freedesktop.policykit.pkexec.wammer.kill</annotate>
     </action>
-    
     <action id="org.freedesktop.policykit.pkexec.wammer.kill">
         <message gettext-domain="wammer">Authentication is required to stop jamming.</message>
         <icon_name>com.github.ronnydo.wammer</icon_name>
@@ -44,5 +39,4 @@
         <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
         <annotate key="org.freedesktop.policykit.imply">org.freedesktop.policykit.pkexec.wammer.airmon org.freedesktop.policykit.pkexec.wammer.aireplay</annotate>
     </action>
-    
 </policyconfig>

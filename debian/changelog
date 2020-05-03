@@ -1,3 +1,9 @@
+com.github.ronnydo.wammer (1.1.6) bionic; urgency=medium
+
+  * Update build scripts
+  
+ -- Ronny Dobra <ronnydobra@arcor.de>  Thu, 03 May 2020 00:44:00 +0100
+
 com.github.ronnydo.wammer (1.1.5) bionic; urgency=medium
 
   * elementary OS "Hera" Release!!1!

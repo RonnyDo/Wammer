@@ -13,7 +13,7 @@ Wammer uses the aircrack-ng suite and requires a compatible WiFi device to work.
 This software is for educational purposes only. Jamming WiFi networks might violate certain laws or regulations in your country. Make sure you have the network owner's permission to run this program. You are using this software on your own risk.
 
 ## Installation & Requirements
-To run Wammer you'll need to...
+To run Wammer you'll need to…
 
    * install the Wammer app 
    * install aircrack-ng

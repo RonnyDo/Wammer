@@ -42,7 +42,7 @@ msgid "The jammer gets started. Please hold on a moment."
 msgstr ""
 
 #: src/MainWindow.vala:182
-msgid "Full power back..."
+msgid "Full power back…"
 msgstr ""
 
 #: src/MainWindow.vala:182
@@ -101,7 +101,7 @@ msgid ""
 msgstr ""
 
 #: src/Services/Jammer.vala:96 src/Services/Jammer.vala:147
-msgid "Uppps, something wen't wrong ... Maybe you try it one more time!"
+msgid "Uppps, something wen't wrong … Maybe you try it one more time!"
 msgstr ""
 
 #: src/Services/Jammer.vala:141

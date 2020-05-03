@@ -44,8 +44,8 @@ msgid "The jammer gets started. Please hold on a moment."
 msgstr "Der Störsender wird gestartet. Einen Moment bitte."
 
 #: src/MainWindow.vala:182
-msgid "Full power back..."
-msgstr "Volle Kraft zurück..."
+msgid "Full power back…"
+msgstr "Volle Kraft zurück…"
 
 #: src/MainWindow.vala:182
 msgid "The jammer gets stopped. Please hold on a moment."
@@ -110,8 +110,8 @@ msgstr ""
 "verbunden ist."
 
 #: src/Services/Jammer.vala:96 src/Services/Jammer.vala:147
-msgid "Uppps, something wen't wrong ... Maybe you try it one more time!"
-msgstr "Uppps, etwas ist schief gelaufen ... Versuche es noch einmal!"
+msgid "Uppps, something wen't wrong … Maybe you try it one more time!"
+msgstr "Uppps, etwas ist schief gelaufen … Versuche es noch einmal!"
 
 #: src/Services/Jammer.vala:141
 #, c-format

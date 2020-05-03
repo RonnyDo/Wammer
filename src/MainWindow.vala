@@ -179,7 +179,7 @@ namespace Wammer {
             
             
             // stopping stack
-            stopping_view = new Granite.Widgets.AlertView (_("Full power back..."), _("The jammer gets stopped. Please hold on a moment."), "edit-clear");
+            stopping_view = new Granite.Widgets.AlertView (_("Full power back…"), _("The jammer gets stopped. Please hold on a moment."), "edit-clear");
             stack.add_titled (stopping_view, "stopping_stack", "stopping_stack");
             
             

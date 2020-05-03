@@ -93,7 +93,7 @@ namespace Wammer.Services {
                         
                         }
                     } catch (Error e) {
-                        message (_("Uppps, something wen't wrong ... Maybe you try it one more time!"));
+                        message (_("Uppps, something wen't wrong … Maybe you try it one more time!"));
                         warning ("Exception while determine router MAC address: %s\n", e.message);
                         reset_default ();
                     }        
@@ -144,7 +144,7 @@ namespace Wammer.Services {
                             reset_default ();
                         }
                     } catch (Error e) {
-                        message (_("Uppps, something wen't wrong ... Maybe you try it one more time!"));
+                        message (_("Uppps, something wen't wrong … Maybe you try it one more time!"));
                         warning ("Exception while starting monitor interface on interface '%s'. Error was: %s\n", interface, e.message);
                         reset_default ();
                     }        
@@ -179,7 +179,7 @@ namespace Wammer.Services {
                         jammer_subprocess.wait_check_async.end (res);
                         
                         // this case "should" never happen, because the aireplay-ng config say "run until CTRL-Z" terminates me 
-                        warning ("aireplay-ng's never ending process ended successfully... that shouldn't happen!");
+                        warning ("aireplay-ng's never ending process ended successfully… that shouldn't happen!");
                         reset_default ();
                     } catch (Error e) {
                         if (jammer_subprocess.get_if_signaled()) {
@@ -194,7 +194,7 @@ namespace Wammer.Services {
                             while ((stdout_line = stdout_datastream.read_line (null)) != null) {
                                 stdout_text += stdout_line + "\n";
                             }
-                            message (_("Uppps, something wen't wrong ... Maybe you try it one more time!"));
+                            message (_("Uppps, something wen't wrong … Maybe you try it one more time!"));
                             warning ("Exception while running aireplay-ng jammer process. Will try to stop monitor interface. Exit reason was: %s\nairreplay message was: %s", e.message, stdout_text);
                             */
                         }                            

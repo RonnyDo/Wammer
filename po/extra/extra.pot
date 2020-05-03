@@ -58,7 +58,7 @@ msgid ""
 msgstr ""
 
 #: data/com.github.ronnydo.wammer.appdata.xml.in:27
-msgid "elementary OS \"Hera\" Release!!1!"
+msgid "elementary OS \"Hera\" Release!"
 msgstr ""
 
 #: data/com.github.ronnydo.wammer.appdata.xml.in:34
@@ -70,7 +70,7 @@ msgid "Small typo fix"
 msgstr ""
 
 #: data/com.github.ronnydo.wammer.appdata.xml.in:36
-msgid "No bigger issues so far means first main release!!1!"
+msgid "No bigger issues so far means first main release!"
 msgstr ""
 
 #: data/com.github.ronnydo.wammer.appdata.xml.in:43

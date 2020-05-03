@@ -136,7 +136,7 @@ namespace Wammer.Services {
                             // SUCCESS !!! continie with stage 3
                             info ("Stage 2 completed. Monitor interface is %s\n", monitor_interface);
                             this.monitor_interface = monitor_interface;
-                            start_jamming (monitor_interface, mac);
+                            start_jamming.begin (monitor_interface, mac);
                         } else {  
                             string m = _("Unfortunately the WiFi interface '%s' doesn‘t seem to be supported.\nPlease check %s for more information.");
                             message (m.printf (interface, "<a href=\"https://www.github.com/ronnydo/wammer/\">https://www.github.com/ronnydo/wammer/</a>"));

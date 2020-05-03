@@ -20,7 +20,7 @@ msgstr ""
 "X-Generator: Poedit 2.0.6\n"
 
 #: src/MainWindow.vala:129
-msgid "Select the WiFi interface, which will be used for jamming."
+msgid "Select the Wi-Fi interface, which will be used for jamming."
 msgstr ""
 "Выберите беспроводной интерфейс который будет использоваться для генератора "
 "помех."
@@ -30,9 +30,9 @@ msgid "Everything works fine."
 msgstr "Все работает отлично."
 
 #: src/MainWindow.vala:163
-msgid "The jammer is <b>inactive</b>. Your WiFi network will work as usual."
+msgid "The jammer is <b>inactive</b>. Your Wi-Fi network will work as usual."
 msgstr ""
-"Генератор помех <b>активен</b>. Ваша WiFi сеть будет работать как обычно."
+"Генератор помех <b>активен</b>. Ваша Wi-Fi сеть будет работать как обычно."
 
 #: src/MainWindow.vala:164
 msgid "Activate jammer"
@@ -61,7 +61,7 @@ msgstr "З-з-з-з-з-!"
 #: src/MainWindow.vala:187
 msgid ""
 "The jammer is <b>active</b> now! Your device should be the only one,\n"
-"which is able to communicate with the WiFi router."
+"which is able to communicate with the Wi-Fi router."
 msgstr ""
 "Генератор помех <b>активен</b>! Ваше устройстве должен быть единственным,\n"
 "у которого должен работать беспроводной доступ в интернет."
@@ -75,7 +75,7 @@ msgid "That won't work!"
 msgstr "Это не будет работать!"
 
 #: src/MainWindow.vala:197
-msgid "You need at least one WiFi interface installed."
+msgid "You need at least one Wi-Fi interface installed."
 msgstr "Вам нужен по крайней мере один беспроводной интерфейс."
 
 #: src/MainWindow.vala:198
@@ -88,11 +88,11 @@ msgstr "Отказ от ответственности"
 
 #: src/MainWindow.vala:206
 msgid ""
-"Jamming WiFi networks might violate certain laws or regulations in your "
+"Jamming Wi-Fi networks might violate certain laws or regulations in your "
 "country.\n"
 "You are using this software on your own risk!"
 msgstr ""
-"Глушители WiFi сетей возможно нарушают некоторые законы или правила в вашей "
+"Глушители Wi-Fi сетей возможно нарушают некоторые законы или правила в вашей "
 "стране.\n"
 "Вы используете это программное обеспечение на свой страх и риск!"
 
@@ -107,7 +107,7 @@ msgstr "Генератор помех занят или уже активен."
 #: src/Services/Jammer.vala:82
 #, c-format
 msgid ""
-"Make sure the WiFi interface '%s' is plugged in and connected to a network."
+"Make sure the Wi-Fi interface '%s' is plugged in and connected to a network."
 msgstr ""
 "Убедитесь, что беспроводной интерфейс \"%s\" доступен и подключен к сети."
 
@@ -118,10 +118,10 @@ msgstr "Упс, что-то пошло не так… может вам попр
 #: src/Services/Jammer.vala:141
 #, c-format
 msgid ""
-"Unfortunately the WiFi interface '%s' doesn‘t seem to be supported.\n"
+"Unfortunately the Wi-Fi interface '%s' doesn‘t seem to be supported.\n"
 "Please check %s for more information."
 msgstr ""
-"К сожалению wifi интерфейс \"%s\" не поддерживается.\n"
+"К сожалению Wi-Fi интерфейс \"%s\" не поддерживается.\n"
 "Пожалуйста посетите %s для получения дополнительной информации."
 
 #: src/Services/Jammer.vala:246

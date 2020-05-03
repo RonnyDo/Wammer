@@ -79,7 +79,7 @@ namespace Wammer.Services {
                             string mac = Utils.Utils.extract_mac (stdout_text);
                                                         
                             if (mac == "") {
-                                string m = _("Make sure the WiFi interface '%s' is plugged in and connected to a network.");
+                                string m = _("Make sure the Wi-Fi interface '%s' is plugged in and connected to a network.");
                                 message (m.printf (interface_name));
                                 warning ("Router MAC couldn't determined. Make sure the device is plugged in and the interface is connected to a network.");
                                 reset_default ();
@@ -138,7 +138,7 @@ namespace Wammer.Services {
                             this.monitor_interface = monitor_interface;
                             start_jamming (monitor_interface, mac);
                         } else {  
-                            string m = _("Unfortunately the WiFi interface '%s' doesn‘t seem to be supported.\nPlease check %s for more information.");
+                            string m = _("Unfortunately the Wi-Fi interface '%s' doesn‘t seem to be supported.\nPlease check %s for more information.");
                             message (m.printf (interface, "<a href=\"https://www.github.com/ronnydo/wammer/\">https://www.github.com/ronnydo/wammer/</a>"));
                             warning ("Monitor interface couldn't be created from interface %s. airmon-ng output was: %s\n", interface, stdout_text);
                             reset_default ();

@@ -21,7 +21,7 @@
 
 namespace Wammer.Utils {
     public class Utils {
-        public static List<string> get_wifi_interfaces () {
+        public static List<string> get_Wi-Fi_interfaces () {
             List<string> interface_list = new List<string> ();
             
             string[] cmd = {"iwconfig"};
@@ -42,15 +42,15 @@ namespace Wammer.Utils {
                     string line = "";
                     while ((line = dis.read_line (null)) != null) {
                         if (line.contains ("IEEE 802.11")) {
-                            string interface_name = extract_wifi_interface (line);
+                            string interface_name = extract_Wi-Fi_interface (line);
                             interface_list.append (interface_name);
                         }
                     }
                 } else {
-                    error ("Process for getting wifi interfaces exited abnormally.");                
+                    error ("Process for getting Wi-Fi interfaces exited abnormally.");                
                 }
             } catch (Error e) {
-                error ("Couldn't spawn process for getting wifi interface: %s\n", e.message);
+                error ("Couldn't spawn process for getting Wi-Fi interface: %s\n", e.message);
             }
             
             return interface_list;
@@ -58,9 +58,9 @@ namespace Wammer.Utils {
         } 
         
         /*
-         * Extract wifi interface name
+         * Extract Wi-Fi interface name
          */
-        public static string extract_wifi_interface (string input) {
+        public static string extract_Wi-Fi_interface (string input) {
             string interface_name = input.split (" ")[0];
             
             try {

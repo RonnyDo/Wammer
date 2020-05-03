@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: src/MainWindow.vala:129
-msgid "Select the WiFi interface, which will be used for jamming."
+msgid "Select the Wi-Fi interface, which will be used for jamming."
 msgstr ""
 
 #: src/MainWindow.vala:163
@@ -26,7 +26,7 @@ msgid "Everything works fine."
 msgstr ""
 
 #: src/MainWindow.vala:163
-msgid "The jammer is <b>inactive</b>. Your WiFi network will work as usual."
+msgid "The jammer is <b>inactive</b>. Your Wi-Fi network will work as usual."
 msgstr ""
 
 #: src/MainWindow.vala:164
@@ -56,7 +56,7 @@ msgstr ""
 #: src/MainWindow.vala:187
 msgid ""
 "The jammer is <b>active</b> now! Your device should be the only one,\n"
-"which is able to communicate with the WiFi router."
+"which is able to communicate with the Wi-Fi router."
 msgstr ""
 
 #: src/MainWindow.vala:189
@@ -68,7 +68,7 @@ msgid "That won't work!"
 msgstr ""
 
 #: src/MainWindow.vala:197
-msgid "You need at least one WiFi interface installed."
+msgid "You need at least one Wi-Fi interface installed."
 msgstr ""
 
 #: src/MainWindow.vala:198
@@ -81,7 +81,7 @@ msgstr ""
 
 #: src/MainWindow.vala:206
 msgid ""
-"Jamming WiFi networks might violate certain laws or regulations in your "
+"Jamming Wi-Fi networks might violate certain laws or regulations in your "
 "country.\n"
 "You are using this software on your own risk!"
 msgstr ""
@@ -97,7 +97,7 @@ msgstr ""
 #: src/Services/Jammer.vala:82
 #, c-format
 msgid ""
-"Make sure the WiFi interface '%s' is plugged in and connected to a network."
+"Make sure the Wi-Fi interface '%s' is plugged in and connected to a network."
 msgstr ""
 
 #: src/Services/Jammer.vala:96 src/Services/Jammer.vala:147
@@ -107,7 +107,7 @@ msgstr ""
 #: src/Services/Jammer.vala:141
 #, c-format
 msgid ""
-"Unfortunately the WiFi interface '%s' doesn‘t seem to be supported.\n"
+"Unfortunately the Wi-Fi interface '%s' doesn‘t seem to be supported.\n"
 "Please check %s for more information."
 msgstr ""
 

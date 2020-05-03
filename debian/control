@@ -12,8 +12,8 @@ Standards-Version: 3.9.3
 Package: com.github.ronnydo.wammer
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}, aircrack-ng
-Description: Jamming your WiFi network
-  Wammer lets you kick out all clients in your WiFi network, so you can enjoy its full bandwidth. Best part of the story: everything works fully automatically!
-  In order to work Wammer needs the aircrack-ng installed and a compatible WiFi device to work. For more information please visit https://github.com/ronnydo/wammer.
-  Disclaimer: This software is for educational purposes only. Jamming WiFi networks might violate certain laws or regulations in your country.
+Description: Jamming your Wi-Fi network
+  Wammer lets you kick out all clients in your Wi-Fi network, so you can enjoy its full bandwidth. Best part of the story: everything works fully automatically!
+  In order to work Wammer needs the aircrack-ng installed and a compatible Wi-Fi device to work. For more information please visit https://github.com/ronnydo/wammer.
+  Disclaimer: This software is for educational purposes only. Jamming Wi-Fi networks might violate certain laws or regulations in your country.
   Make sure you have the network owner's permission to run this program. You are using this software on your own risk.

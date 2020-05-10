@@ -1,0 +1,136 @@
+# French translations for com.github.ronnydo.wammer package.
+# Copyright (C) 2020 THE com.github.ronnydo.wammer'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.ronnydo.wammer package.
+# Nathan Bonnemains (@NathanBnm), 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.ronnydo.wammer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-03 10:30+0200\n"
+"PO-Revision-Date: 2020-05-03 10:14+0200\n"
+"Last-Translator: Nathan Bonnemains (@NathanBnm)\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: src/MainWindow.vala:129
+msgid "Select the WiFi interface, which will be used for jamming."
+msgstr "Sélectionnez l'interface Wi-Fi qui sera utilisée pour le brouillage."
+
+#: src/MainWindow.vala:163
+msgid "Everything works fine."
+msgstr "Tout fonctionne bien."
+
+#: src/MainWindow.vala:163
+msgid "The jammer is <b>inactive</b>. Your WiFi network will work as usual."
+msgstr ""
+"Le brouilleur est <b>inactif</b>. Votre réseau Wi-Fi fonctionne normalement."
+
+#: src/MainWindow.vala:164
+msgid "Activate jammer"
+msgstr "Activer le brouilleur"
+
+#: src/MainWindow.vala:176
+msgid "We're taking off!"
+msgstr "On décolle !"
+
+#: src/MainWindow.vala:176
+msgid "The jammer gets started. Please hold on a moment."
+msgstr ""
+"Le brouilleur est en cours de lancement. Veuillez patienter un instant."
+
+#: src/MainWindow.vala:182
+msgid "Full power back..."
+msgstr "Retour en plein puissance..."
+
+#: src/MainWindow.vala:182
+msgid "The jammer gets stopped. Please hold on a moment."
+msgstr "Le brouilleur est en cours d'arrêt. Veuillez patienter un instant."
+
+#: src/MainWindow.vala:187
+msgid "Bzzzzzz!"
+msgstr "Bzzzzzz !"
+
+#: src/MainWindow.vala:187
+msgid ""
+"The jammer is <b>active</b> now! Your device should be the only one,\n"
+"which is able to communicate with the WiFi router."
+msgstr ""
+"Le brouilleur est désormais <b>actif</b> ! Votre appareil devrait être le "
+"seul,\n"
+"qui peut se connecter au routeur Wi-Fi."
+
+#: src/MainWindow.vala:189
+msgid "Deactivate jammer"
+msgstr "Désactiver le brouilleur"
+
+#: src/MainWindow.vala:197
+msgid "That won't work!"
+msgstr "Cela ne fonctionnera pas !"
+
+#: src/MainWindow.vala:197
+msgid "You need at least one WiFi interface installed."
+msgstr "Vous devez avoir au moins une interface Wi-Fi d'installée."
+
+#: src/MainWindow.vala:198
+msgid "Exit"
+msgstr "Quitter"
+
+#: src/MainWindow.vala:206
+msgid "Disclaimer"
+msgstr "Avertissement"
+
+#: src/MainWindow.vala:206
+msgid ""
+"Jamming WiFi networks might violate certain laws or regulations in your "
+"country.\n"
+"You are using this software on your own risk!"
+msgstr ""
+"Le brouillage des réseaux Wi-Fi peut violer certaines lois ou régulations "
+"dans votre pays.\n"
+"Vous utilisez ce logiciel à vos risques et périls !"
+
+#: src/MainWindow.vala:207
+msgid "Got it!"
+msgstr "J'ai compris !"
+
+#: src/Services/Jammer.vala:41
+msgid "Jammer is busy or already active."
+msgstr "Le brouilleur est occupé ou déja actif."
+
+#: src/Services/Jammer.vala:82
+#, c-format
+msgid ""
+"Make sure the WiFi interface '%s' is plugged in and connected to a network."
+msgstr ""
+"Assurez-vous que l'interface Wi-Fi « %s » est branchée et connectée à un "
+"réseau."
+
+#: src/Services/Jammer.vala:96 src/Services/Jammer.vala:147
+msgid "Uppps, something wen't wrong ... Maybe you try it one more time!"
+msgstr ""
+"Oups, une erreur s'est produite... Peut-être que vous devriez essayer à "
+"nouveau !"
+
+#: src/Services/Jammer.vala:141
+#, c-format
+msgid ""
+"Unfortunately the WiFi interface '%s' doesn‘t seem to be supported.\n"
+"Please check %s for more information."
+msgstr ""
+"Malheureusement, l'interface Wi-Fi « %s » n'a pas l'air d'être prise en "
+"charge.\n"
+"Veuillez consulter %s pour plus d'informations."
+
+#: src/Services/Jammer.vala:246
+#, c-format
+msgid ""
+"Error while stopping jammer process. Try again or kill process manually: "
+"'sudo kill %s'"
+msgstr ""
+"Erreur lors de l'arrêt du processus de brouillage. Veuillez réessayer ou "
+"stopper le processus manuellement : « sudo kill %s »"

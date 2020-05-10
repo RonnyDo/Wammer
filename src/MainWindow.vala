@@ -73,7 +73,7 @@ namespace Wammer {
             
             jammer = new Services.Jammer ();
                         
-            interface_list = Utils.Utils.get_wifi_interfaces (); 
+            interface_list = Utils.Utils.get_Wi-Fi_interfaces (); 
                         
             jammer.state_changed.connect ((t,state) => {
                 JammerState j_state = (JammerState) state;
@@ -114,7 +114,7 @@ namespace Wammer {
             this.resizable = false;   
             this.window_position = Gtk.WindowPosition.CENTER; 
             
-            // TODO check on startup if airmon + aireplay is installed (like with wifi interfaces)
+            // TODO check on startup if airmon + aireplay is installed (like with Wi-Fi interfaces)
             // workaround 1: in main meson.build: run_command('sudo', 'apt', 'install', 'aircrack-ng')
             // workaround 2: add on startup (or on running the command) if Aircrack is installed. if not show error
             
@@ -126,7 +126,7 @@ namespace Wammer {
             this.set_titlebar (headerbar);
               
             interface_chooser = new Gtk.ComboBoxText ();
-            interface_chooser.tooltip_text = _("Select the WiFi interface, which will be used for jamming.");
+            interface_chooser.tooltip_text = _("Select the Wi-Fi interface, which will be used for jamming.");
             foreach (string iface in interface_list) {
                 interface_chooser.append (iface, iface);
             }
@@ -160,7 +160,7 @@ namespace Wammer {
            
                                         
             // inactve stack
-            inactive_view = new Granite.Widgets.AlertView (_("Everything works fine."), _("The jammer is <b>inactive</b>. Your WiFi network will work as usual."), "network-wireless");
+            inactive_view = new Granite.Widgets.AlertView (_("Everything works fine."), _("The jammer is <b>inactive</b>. Your Wi-Fi network will work as usual."), "network-wireless");
             inactive_view.show_action (_("Activate jammer"));
             inactive_view.action_activated.connect (() => {	
                 if (interface_chooser.active_id != null) {
@@ -179,12 +179,12 @@ namespace Wammer {
             
             
             // stopping stack
-            stopping_view = new Granite.Widgets.AlertView (_("Full power back..."), _("The jammer gets stopped. Please hold on a moment."), "edit-clear");
+            stopping_view = new Granite.Widgets.AlertView (_("Full power back…"), _("The jammer gets stopped. Please hold on a moment."), "edit-clear");
             stack.add_titled (stopping_view, "stopping_stack", "stopping_stack");
             
             
             // active stack
-            active_view = new Granite.Widgets.AlertView (_("Bzzzzzz!"), _("The jammer is <b>active</b> now! Your device should be the only one,\nwhich is able to communicate with the WiFi router."), "notification-network-wireless-disconnected");
+            active_view = new Granite.Widgets.AlertView (_("Bzzzzzz!"), _("The jammer is <b>active</b> now! Your device should be the only one,\nwhich is able to communicate with the Wi-Fi router."), "notification-network-wireless-disconnected");
             // alt logo list-remove (Durchfahrt verboten)
             active_view.show_action (_("Deactivate jammer"));
             active_view.action_activated.connect (() => {
@@ -194,7 +194,7 @@ namespace Wammer {
             
             
             // no interface stack
-            no_interface_view = new Granite.Widgets.AlertView (_("That won't work!"), _("You need at least one WiFi interface installed."), "dialog-question");
+            no_interface_view = new Granite.Widgets.AlertView (_("That won't work!"), _("You need at least one Wi-Fi interface installed."), "dialog-question");
             no_interface_view.show_action (_("Exit"));
             no_interface_view.action_activated.connect (() => {
                 this.destroy ();
@@ -203,7 +203,7 @@ namespace Wammer {
                  
                  
             // disclaimer stack
-            disclaimer_view = new Granite.Widgets.AlertView (_("Disclaimer"), _("Jamming WiFi networks might violate certain laws or regulations in your country.\nYou are using this software on your own risk!"), "dialog-warning");
+            disclaimer_view = new Granite.Widgets.AlertView (_("Disclaimer"), _("Jamming Wi-Fi networks might violate certain laws or regulations in your country.\nYou are using this software on your own risk!"), "dialog-warning");
             disclaimer_view.show_action (_("Got it!"));
             disclaimer_view.action_activated.connect (() => {
                 settings.accept_disclaimer = true;

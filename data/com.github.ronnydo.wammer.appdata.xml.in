@@ -6,12 +6,12 @@
 	<project_group>wammer</project_group>
 	<project_license>GPL-3.0+</project_license>
 	<name>Wammer</name>
-	<summary>Jamming your WiFi network</summary>
+	<summary>Jamming your Wi-Fi network</summary>
 	<description>
-		<p>Wammer lets you kick out all clients in your WiFi network, so you can enjoy its full bandwidth. Best part of the story: everything works fully automatically!</p>
-		<p>In order to work Wammer needs the aircrack-ng installed and a compatible WiFi device to work. For more information please visit the project's homepage.</p>
+		<p>Wammer lets you kick out all clients in your Wi-Fi network, so you can enjoy its full bandwidth. Best part of the story: everything works fully automatically!</p>
+		<p>In order to work Wammer needs the aircrack-ng installed and a compatible Wi-Fi device to work. For more information please visit the project's homepage.</p>
 		<p>
-			<b>Disclaimer: This software is for educational purposes only. Jamming WiFi networks might violate certain laws or regulations in your country. Make sure you have the network owner's permission to run this program. You are using this software on your own risk.</b>
+			<b>Disclaimer: This software is for educational purposes only. Jamming Wi-Fi networks might violate certain laws or regulations in your country. Make sure you have the network owner's permission to run this program. You are using this software on your own risk.</b>
 		</p>
 	</description>
 	<categories>
@@ -31,7 +31,7 @@
 		<release version="1.1.5" date="2020-01-02" urgency="medium">
 			<description>
 				<ul>
-					<li>elementary OS "Hera" Release!!1!</li>
+					<li>elementary OS "Hera" Release!</li>
 				</ul>
 			</description>
 		</release>
@@ -40,7 +40,7 @@
 				<ul>
 					<li>"Hans! Hol den Flammenwerfer!" - Added German translation</li>
 					<li>Small typo fix</li>
-					<li>No bigger issues so far means first main release!!1!</li>
+					<li>No bigger issues so far means first main release!</li>
 				</ul>
 			</description>
 		</release>

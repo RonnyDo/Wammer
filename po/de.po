@@ -18,18 +18,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/MainWindow.vala:129
-msgid "Select the WiFi interface, which will be used for jamming."
+msgid "Select the Wi-Fi interface, which will be used for jamming."
 msgstr ""
-"Wähle die WiFi-Schnittstelle aus, welche zum Stören verwenden werden soll."
+"Wähle die Wi-Fi-Schnittstelle aus, welche zum Stören verwenden werden soll."
 
 #: src/MainWindow.vala:163
 msgid "Everything works fine."
 msgstr "Alles funktioniert."
 
 #: src/MainWindow.vala:163
-msgid "The jammer is <b>inactive</b>. Your WiFi network will work as usual."
+msgid "The jammer is <b>inactive</b>. Your Wi-Fi network will work as usual."
 msgstr ""
-"Der Störsender ist <b>inaktiv</b>. Dein WiFi-Netzwerk arbeitet wie gewohnt."
+"Der Störsender ist <b>inaktiv</b>. Dein Wi-Fi-Netzwerk arbeitet wie gewohnt."
 
 #: src/MainWindow.vala:164
 msgid "Activate jammer"
@@ -44,8 +44,8 @@ msgid "The jammer gets started. Please hold on a moment."
 msgstr "Der Störsender wird gestartet. Einen Moment bitte."
 
 #: src/MainWindow.vala:182
-msgid "Full power back..."
-msgstr "Volle Kraft zurück..."
+msgid "Full power back…"
+msgstr "Volle Kraft zurück…"
 
 #: src/MainWindow.vala:182
 msgid "The jammer gets stopped. Please hold on a moment."
@@ -58,10 +58,10 @@ msgstr "Bzzzzzz!"
 #: src/MainWindow.vala:187
 msgid ""
 "The jammer is <b>active</b> now! Your device should be the only one,\n"
-"which is able to communicate with the WiFi router."
+"which is able to communicate with the Wi-Fi router."
 msgstr ""
 "Der Störsender ist jetzt <b>aktiv</b>! Nur dein Gerät sollte in der\n"
-"Lage sein, mit dem WiFi-Router zu kommunizieren."
+"Lage sein, mit dem Wi-Fi-Router zu kommunizieren."
 
 #: src/MainWindow.vala:189
 msgid "Deactivate jammer"
@@ -72,8 +72,8 @@ msgid "That won't work!"
 msgstr "Das wird nicht funktionieren!"
 
 #: src/MainWindow.vala:197
-msgid "You need at least one WiFi interface installed."
-msgstr "Mindestens ein WiFi-Gerät muss installiert sein."
+msgid "You need at least one Wi-Fi interface installed."
+msgstr "Mindestens ein Wi-Fi-Gerät muss installiert sein."
 
 #: src/MainWindow.vala:198
 msgid "Exit"
@@ -85,11 +85,11 @@ msgstr "Haftungsausschluss"
 
 #: src/MainWindow.vala:206
 msgid ""
-"Jamming WiFi networks might violate certain laws or regulations in your "
+"Jamming Wi-Fi networks might violate certain laws or regulations in your "
 "country.\n"
 "You are using this software on your own risk!"
 msgstr ""
-"Das Stören von WiFi-Netzwerken verstößt in deinem Land möglicherweise gegen\n"
+"Das Stören von Wi-Fi-Netzwerken verstößt in deinem Land möglicherweise gegen\n"
 "bestimmte Gesetze oder Regularien. Du benutzt diese Software auf eigene "
 "Gefahr!"
 
@@ -104,22 +104,22 @@ msgstr "Der Störsender ist gerade beschäftigt oder bereits aktiv."
 #: src/Services/Jammer.vala:82
 #, fuzzy, c-format
 msgid ""
-"Make sure the WiFi interface '%s' is plugged in and connected to a network."
+"Make sure the Wi-Fi interface '%s' is plugged in and connected to a network."
 msgstr ""
-"Stelle sicher, dass das WiFi-Gerät '%s' eingesteckt und mit einem Netwerk "
+"Stelle sicher, dass das Wi-Fi-Gerät '%s' eingesteckt und mit einem Netwerk "
 "verbunden ist."
 
 #: src/Services/Jammer.vala:96 src/Services/Jammer.vala:147
-msgid "Uppps, something wen't wrong ... Maybe you try it one more time!"
-msgstr "Uppps, etwas ist schief gelaufen ... Versuche es noch einmal!"
+msgid "Uppps, something wen't wrong … Maybe you try it one more time!"
+msgstr "Uppps, etwas ist schief gelaufen … Versuche es noch einmal!"
 
 #: src/Services/Jammer.vala:141
 #, c-format
 msgid ""
-"Unfortunately the WiFi interface '%s' doesn‘t seem to be supported.\n"
+"Unfortunately the Wi-Fi interface '%s' doesn‘t seem to be supported.\n"
 "Please check %s for more information."
 msgstr ""
-"Das WiFi-Gerät '%s' scheint nicht unterstützt zu werden.\n"
+"Das Wi-Fi-Gerät '%s' scheint nicht unterstützt zu werden.\n"
 "Mehr Infomrationen dazu findest du auf %s."
 
 #: src/Services/Jammer.vala:246

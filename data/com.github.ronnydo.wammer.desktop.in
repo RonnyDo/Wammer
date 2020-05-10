@@ -1,9 +1,9 @@
 [Desktop Entry]
 Name=Wammer
-Comment=Jamming your WiFi network
+Comment=Jamming your Wi-Fi network
 Exec=com.github.ronnydo.wammer
 Icon=com.github.ronnydo.wammer
-Keywords=wammer;jammer;wifijammer;aircrack;
+Keywords=wammer;jammer;Wi-Fijammer;aircrack;
 Terminal=false
 Type=Application
 Categories=GTK;Utility;Network;System;

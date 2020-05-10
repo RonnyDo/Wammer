@@ -24,7 +24,7 @@ msgstr ""
 
 #: data/com.github.ronnydo.wammer.desktop.in:4
 #: data/com.github.ronnydo.wammer.appdata.xml.in:9
-msgid "Jamming your WiFi network"
+msgid "Jamming your Wi-Fi network"
 msgstr ""
 
 #: data/com.github.ronnydo.wammer.desktop.in:6
@@ -32,12 +32,12 @@ msgid "com.github.ronnydo.wammer"
 msgstr ""
 
 #: data/com.github.ronnydo.wammer.desktop.in:7
-msgid "wammer;jammer;wifijammer;aircrack;"
+msgid "wammer;jammer;Wi-Fijammer;aircrack;"
 msgstr ""
 
 #: data/com.github.ronnydo.wammer.appdata.xml.in:11
 msgid ""
-"Wammer lets you kick out all clients in your WiFi network, so you can enjoy "
+"Wammer lets you kick out all clients in your Wi-Fi network, so you can enjoy "
 "its full bandwidth. Best part of the story: everything works fully "
 "automatically!"
 msgstr ""
@@ -45,20 +45,20 @@ msgstr ""
 #: data/com.github.ronnydo.wammer.appdata.xml.in:12
 msgid ""
 "In order to work Wammer needs the aircrack-ng installed and a compatible "
-"WiFi device to work. For more information please visit the project's "
+"Wi-Fi device to work. For more information please visit the project's "
 "homepage."
 msgstr ""
 
 #: data/com.github.ronnydo.wammer.appdata.xml.in:14
 msgid ""
-"Disclaimer: This software is for educational purposes only. Jamming WiFi "
+"Disclaimer: This software is for educational purposes only. Jamming Wi-Fi "
 "networks might violate certain laws or regulations in your country. Make "
 "sure you have the network owner's permission to run this program. You are "
 "using this software on your own risk."
 msgstr ""
 
 #: data/com.github.ronnydo.wammer.appdata.xml.in:27
-msgid "elementary OS \"Hera\" Release!!1!"
+msgid "elementary OS \"Hera\" Release!"
 msgstr ""
 
 #: data/com.github.ronnydo.wammer.appdata.xml.in:34
@@ -70,7 +70,7 @@ msgid "Small typo fix"
 msgstr ""
 
 #: data/com.github.ronnydo.wammer.appdata.xml.in:36
-msgid "No bigger issues so far means first main release!!1!"
+msgid "No bigger issues so far means first main release!"
 msgstr ""
 
 #: data/com.github.ronnydo.wammer.appdata.xml.in:43

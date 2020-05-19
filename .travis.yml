@@ -3,7 +3,7 @@
 language: node_js
 
 node_js:
-  - 10.17.0
+   - lts/*
 
 sudo: required
 
@@ -16,10 +16,6 @@ addons:
       - ubuntu-toolchain-r-test
     packages:
       - libstdc++-5-dev
-
-cache:
-  directories:
-    - /tmp/liftoff
 
 install:
   - npm i -g @elementaryos/houston

@@ -11,7 +11,7 @@
 * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 * General Public License for more details.
 *
-* You should have received a copy of the GNU General Public 
+* You should have received a copy of the GNU General Public
 * License along with this program; if not, write to the
 * Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
 * Boston, MA 02110-1301 USA
@@ -21,48 +21,48 @@
 
 namespace Wammer.Utils {
     public class Utils {
-        public static List<string> get_Wi-Fi_interfaces () {
+        public static List<string> get_Wi_Fi_interfaces () {
             List<string> interface_list = new List<string> ();
-            
+
             string[] cmd = {"iwconfig"};
 
-            SubprocessLauncher launcher = new SubprocessLauncher (SubprocessFlags.STDOUT_PIPE);    
-            
+            SubprocessLauncher launcher = new SubprocessLauncher (SubprocessFlags.STDOUT_PIPE);
+
             try {
-                Subprocess subprocess = launcher.spawnv (cmd);  
+                Subprocess subprocess = launcher.spawnv (cmd);
                 var input_stream = subprocess.get_stdout_pipe ();
-                
+
                 // wait for process to exit
                 subprocess.wait_check ();
-                
-                // check if the subprocess was successful (exit code 0)                 
+
+                // check if the subprocess was successful (exit code 0)
                 if (subprocess.get_successful ()) {
                     // try to extract cmd output
                     DataInputStream dis = new DataInputStream (input_stream);
                     string line = "";
                     while ((line = dis.read_line (null)) != null) {
                         if (line.contains ("IEEE 802.11")) {
-                            string interface_name = extract_Wi-Fi_interface (line);
+                            string interface_name = extract_Wi_Fi_interface (line);
                             interface_list.append (interface_name);
                         }
                     }
                 } else {
-                    error ("Process for getting Wi-Fi interfaces exited abnormally.");                
+                    error ("Process for getting Wi-Fi interfaces exited abnormally.");
                 }
             } catch (Error e) {
                 error ("Couldn't spawn process for getting Wi-Fi interface: %s\n", e.message);
             }
-            
+
             return interface_list;
             // DEBUG return new List<string> ();
-        } 
-        
+        }
+
         /*
          * Extract Wi-Fi interface name
          */
-        public static string extract_Wi-Fi_interface (string input) {
+        public static string extract_Wi_Fi_interface (string input) {
             string interface_name = input.split (" ")[0];
-            
+
             try {
                 Regex regex = new Regex ("[a-zA-Z0-9]+");
 
@@ -74,10 +74,10 @@ namespace Wammer.Utils {
             } catch (Error e) {
                 warning ("Extraction of interface_name failed: %s\n", e.message);
             }
-            
+
             return interface_name;
         }
-    
+
         /*
          * Extract the MAC address from the given input in uppercase fasion.
          * Returns empty string if MAC wasn't found
@@ -91,12 +91,12 @@ namespace Wammer.Utils {
                 MatchInfo matchInfo = null;
                 regex.match (input, 0, out matchInfo);
                 if (matchInfo.matches ()) {
-		            mac = matchInfo.fetch_all()[0];		            
+		            mac = matchInfo.fetch_all()[0];
                 }
             } catch (Error e) {
                 warning ("Extraction of MAC address failed: %s\n", e.message);
             }
-            
+
             // return empty string if mac is default (see man iwconfig)
             if (mac == "00:00:00:00:00:00") {
                 mac = "";
@@ -104,8 +104,8 @@ namespace Wammer.Utils {
 
             return mac.up ();
         }
-        
-        
+
+
         /*
          * Extract name of monitor interface from airmon-ng output
          */
@@ -124,49 +124,48 @@ namespace Wammer.Utils {
             }
             return monitor_interface;
         }
-        
-        
+
+
         /*
          * Check if interface with the name of monitor_interface is running
          */
-        public static bool monitor_interface_running (string monitor_interface) {            
+        public static bool monitor_interface_running (string monitor_interface) {
             string[] cmd = {"ifconfig"};
 
             SubprocessLauncher launcher = new SubprocessLauncher (SubprocessFlags.STDOUT_PIPE);
-            
+
             try {
-                Subprocess subprocess = launcher.spawnv (cmd);  
+                Subprocess subprocess = launcher.spawnv (cmd);
                 InputStream stdout_stream = subprocess.get_stdout_pipe ();
-                
+
                 subprocess.wait_check ();
-                
+
                 string stdout_line = "";
                 DataInputStream stdout_datastream = new DataInputStream (stdout_stream);
-                
+
                 while ((stdout_line = stdout_datastream.read_line (null)) != null) {
                     if (stdout_line.contains (monitor_interface)) {
                         return true;
                     }
-                }                
+                }
             } catch (Error e) {
                 warning ("Can't verify if monitor interface is rnnning: %s\n", e.message);
             }
-            
+
             return false;
         }
-        
+
         /*
          * Convert command array to single line string
          */
-        public static string cmd_to_string (string[] argv) {            
+        public static string cmd_to_string (string[] argv) {
             string cmd = "";
-            
+
             foreach (string arg in argv) {
                 cmd += arg + " ";
             }
-            
+
             return cmd.strip ();
         }
-        
     }
 }

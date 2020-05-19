@@ -73,7 +73,7 @@ namespace Wammer {
             
             jammer = new Services.Jammer ();
                         
-            interface_list = Utils.Utils.get_Wi-Fi_interfaces (); 
+            interface_list = Utils.Utils.get_Wi_Fi_interfaces (); 
                         
             jammer.state_changed.connect ((t,state) => {
                 JammerState j_state = (JammerState) state;

@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-03 10:30+0200\n"
-"PO-Revision-Date: 2020-05-03 10:22+0200\n"
-"Last-Translator: Nathan Bonnemains (@NathanBnm)\n"
+"PO-Revision-Date: 2020-05-19 21:57+0400\n"
+"Last-Translator: Andrey Kultyapov <camellan@yandex.ru>\n"
 "Language-Team: none\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.2.3\n"
 
 #: data/com.github.ronnydo.wammer.desktop.in:3
 #: data/com.github.ronnydo.wammer.appdata.xml.in:8
@@ -36,37 +37,16 @@ msgid "wammer;jammer;wifijammer;aircrack;"
 msgstr "wammer;brouilleur;brouilleur wifi;"
 
 #: data/com.github.ronnydo.wammer.appdata.xml.in:11
-msgid ""
-"Wammer lets you kick out all clients in your WiFi network, so you can enjoy "
-"its full bandwidth. Best part of the story: everything works fully "
-"automatically!"
-msgstr ""
-"Wammer vous permet de déconnecter tous les clients connectés à votre ré"
-"seau Wi-Fi, afin que vous puissiez profiter de toute la bande passante. La "
-"meilleure partie de l'histoire : tout fonctionne de façon complétement "
-"automatique !"
+msgid "Wammer lets you kick out all clients in your WiFi network, so you can enjoy its full bandwidth. Best part of the story: everything works fully automatically!"
+msgstr "Wammer vous permet de déconnecter tous les clients connectés à votre réseau Wi-Fi, afin que vous puissiez profiter de toute la bande passante. La meilleure partie de l'histoire : tout fonctionne de façon complétement automatique !"
 
 #: data/com.github.ronnydo.wammer.appdata.xml.in:12
-msgid ""
-"In order to work Wammer needs the aircrack-ng installed and a compatible "
-"WiFi device to work. For more information please visit the project's "
-"homepage."
-msgstr ""
-"Afin de pouvoir fonctionner Wammer nécessite que aircrack-ng soit installé "
-"et que le périphérique Wi-Fi soit compatible. Pour plus d'informations "
-"veuillez consulter la page du projet."
+msgid "In order to work Wammer needs the aircrack-ng installed and a compatible WiFi device to work. For more information please visit the project's homepage."
+msgstr "Afin de pouvoir fonctionner Wammer nécessite que aircrack-ng soit installé et que le périphérique Wi-Fi soit compatible. Pour plus d'informations veuillez consulter la page du projet."
 
 #: data/com.github.ronnydo.wammer.appdata.xml.in:14
-msgid ""
-"Disclaimer: This software is for educational purposes only. Jamming WiFi "
-"networks might violate certain laws or regulations in your country. Make "
-"sure you have the network owner's permission to run this program. You are "
-"using this software on your own risk."
-msgstr ""
-"Avertissement : Ce logiciel est à but éducatif uniquement. Le brouillage "
-"des réseaux Wi-Fi peut violer certaines lois ou régulations dans votre "
-"pays. Assurez-vous d'avoir la permission du propriétaire du réseau pour "
-"exécuter ce programme. Vous utilisez ce logiciel à vos risques et périls."
+msgid "Disclaimer: This software is for educational purposes only. Jamming WiFi networks might violate certain laws or regulations in your country. Make sure you have the network owner's permission to run this program. You are using this software on your own risk."
+msgstr "Avertissement : Ce logiciel est à but éducatif uniquement. Le brouillage des réseaux Wi-Fi peut violer certaines lois ou régulations dans votre pays. Assurez-vous d'avoir la permission du propriétaire du réseau pour exécuter ce programme. Vous utilisez ce logiciel à vos risques et périls."
 
 #: data/com.github.ronnydo.wammer.appdata.xml.in:27
 msgid "Update build scripts"
@@ -74,7 +54,7 @@ msgstr "Mise à jour des scripts de compilations"
 
 #: data/com.github.ronnydo.wammer.appdata.xml.in:34
 msgid "elementary OS \"Hera\" Release!!1!"
-msgstr "Version elementary OS « Hera » !"
+msgstr "Version elementary OS \"Hera \"!"
 
 #: data/com.github.ronnydo.wammer.appdata.xml.in:41
 msgid "\"Hans! Hol den Flammenwerfer!\" - Added German translation"
@@ -86,9 +66,7 @@ msgstr "Petite correction d'orthographe"
 
 #: data/com.github.ronnydo.wammer.appdata.xml.in:43
 msgid "No bigger issues so far means first main release!!1!"
-msgstr ""
-"Pas de gros problèmes jusque là, ce qui signifie première version "
-"principale !"
+msgstr "Pas de gros problèmes jusque là, ce qui signifie première version principale !"
 
 #: data/com.github.ronnydo.wammer.appdata.xml.in:50
 #: data/com.github.ronnydo.wammer.appdata.xml.in:59
@@ -98,8 +76,7 @@ msgstr "Correction de « Add aircrack-ng as a dependency » (ticket N°4)"
 #: data/com.github.ronnydo.wammer.appdata.xml.in:51
 #: data/com.github.ronnydo.wammer.appdata.xml.in:60
 msgid "Fix \"Mention legality disclaimer in description\" (issue #5)"
-msgstr ""
-"Correction de « Mention legality disclaimer in description » (ticket N°5)"
+msgstr "Correction de « Mention legality disclaimer in description » (ticket N°5)"
 
 #: data/com.github.ronnydo.wammer.appdata.xml.in:52
 #: data/com.github.ronnydo.wammer.appdata.xml.in:61
@@ -108,15 +85,15 @@ msgstr "Bonus : ajout de poussière de lutin"
 
 #: data/com.github.ronnydo.wammer.appdata.xml.in:68
 msgid "fix issue Invalid AppData file (issue #3)"
-msgstr "Correction fdu fichier AppData invalide (ticket N°3)"
+msgstr "Correction fdu fichier AppData invalide (ticket #3)"
 
 #: data/com.github.ronnydo.wammer.appdata.xml.in:75
 msgid "fix issue Invalid AppData file (issue #2)"
-msgstr "Correction fdu fichier AppData invalide (ticket N°2)"
+msgstr "Correction fdu fichier AppData invalide (ticket #2)"
 
 #: data/com.github.ronnydo.wammer.appdata.xml.in:82
 msgid "fix issue Invalid AppData file (issue #1)"
-msgstr "Correction fdu fichier AppData invalide (ticket N°1)"
+msgstr "Correction fdu fichier AppData invalide (ticket #1)"
 
 #: data/com.github.ronnydo.wammer.appdata.xml.in:89
 msgid "Initial release"
@@ -133,3 +110,4 @@ msgstr "Le brouilleur est actif"
 #: data/com.github.ronnydo.wammer.appdata.xml.in:107
 msgid "Ronny Dobra"
 msgstr "Ronny Dobra"
+

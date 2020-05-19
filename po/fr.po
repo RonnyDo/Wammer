@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.ronnydo.wammer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-03 10:30+0200\n"
+"POT-Creation-Date: 2020-05-19 22:01+0400\n"
 "PO-Revision-Date: 2020-05-03 10:14+0200\n"
 "Last-Translator: Nathan Bonnemains (@NathanBnm)\n"
 "Language-Team: none\n"
@@ -18,7 +18,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: src/MainWindow.vala:129
-msgid "Select the WiFi interface, which will be used for jamming."
+#, fuzzy
+msgid "Select the Wi-Fi interface, which will be used for jamming."
 msgstr "Sélectionnez l'interface Wi-Fi qui sera utilisée pour le brouillage."
 
 #: src/MainWindow.vala:163
@@ -26,7 +27,8 @@ msgid "Everything works fine."
 msgstr "Tout fonctionne bien."
 
 #: src/MainWindow.vala:163
-msgid "The jammer is <b>inactive</b>. Your WiFi network will work as usual."
+#, fuzzy
+msgid "The jammer is <b>inactive</b>. Your Wi-Fi network will work as usual."
 msgstr ""
 "Le brouilleur est <b>inactif</b>. Votre réseau Wi-Fi fonctionne normalement."
 
@@ -44,7 +46,8 @@ msgstr ""
 "Le brouilleur est en cours de lancement. Veuillez patienter un instant."
 
 #: src/MainWindow.vala:182
-msgid "Full power back..."
+#, fuzzy
+msgid "Full power back…"
 msgstr "Retour en plein puissance..."
 
 #: src/MainWindow.vala:182
@@ -56,9 +59,10 @@ msgid "Bzzzzzz!"
 msgstr "Bzzzzzz !"
 
 #: src/MainWindow.vala:187
+#, fuzzy
 msgid ""
 "The jammer is <b>active</b> now! Your device should be the only one,\n"
-"which is able to communicate with the WiFi router."
+"which is able to communicate with the Wi-Fi router."
 msgstr ""
 "Le brouilleur est désormais <b>actif</b> ! Votre appareil devrait être le "
 "seul,\n"
@@ -73,7 +77,8 @@ msgid "That won't work!"
 msgstr "Cela ne fonctionnera pas !"
 
 #: src/MainWindow.vala:197
-msgid "You need at least one WiFi interface installed."
+#, fuzzy
+msgid "You need at least one Wi-Fi interface installed."
 msgstr "Vous devez avoir au moins une interface Wi-Fi d'installée."
 
 #: src/MainWindow.vala:198
@@ -85,8 +90,9 @@ msgid "Disclaimer"
 msgstr "Avertissement"
 
 #: src/MainWindow.vala:206
+#, fuzzy
 msgid ""
-"Jamming WiFi networks might violate certain laws or regulations in your "
+"Jamming Wi-Fi networks might violate certain laws or regulations in your "
 "country.\n"
 "You are using this software on your own risk!"
 msgstr ""
@@ -103,23 +109,24 @@ msgid "Jammer is busy or already active."
 msgstr "Le brouilleur est occupé ou déja actif."
 
 #: src/Services/Jammer.vala:82
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"Make sure the WiFi interface '%s' is plugged in and connected to a network."
+"Make sure the Wi-Fi interface '%s' is plugged in and connected to a network."
 msgstr ""
 "Assurez-vous que l'interface Wi-Fi « %s » est branchée et connectée à un "
 "réseau."
 
 #: src/Services/Jammer.vala:96 src/Services/Jammer.vala:147
-msgid "Uppps, something wen't wrong ... Maybe you try it one more time!"
+#, fuzzy
+msgid "Uppps, something wen't wrong … Maybe you try it one more time!"
 msgstr ""
 "Oups, une erreur s'est produite... Peut-être que vous devriez essayer à "
 "nouveau !"
 
 #: src/Services/Jammer.vala:141
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"Unfortunately the WiFi interface '%s' doesn‘t seem to be supported.\n"
+"Unfortunately the Wi-Fi interface '%s' doesn‘t seem to be supported.\n"
 "Please check %s for more information."
 msgstr ""
 "Malheureusement, l'interface Wi-Fi « %s » n'a pas l'air d'être prise en "

@@ -1,115 +1,125 @@
 # Dutch translations for com.github.ronnydo.wammer package.
-# Copyright (C) 2018 THE com.github.ronnydo.wammer'S COPYRIGHT HOLDER
+# Copyright (C) 2020 THE com.github.ronnydo.wammer'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the com.github.ronnydo.wammer package.
-# Automatically generated, 2018.
+# Heimen Stoffels <vistausss@outlook.com>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: com.github.ronnydo.wammer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-19 18:33+0400\n"
-"PO-Revision-Date: 2018-04-23 22:10-0500\n"
-"Last-Translator: Automatically generated\n"
+"POT-Creation-Date: 2020-01-12 10:27+0100\n"
+"PO-Revision-Date: 2019-11-09 13:54+0100\n"
+"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: none\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: src/MainWindow.vala:129
-msgid "Select the WiFi interface, which will be used for jamming."
-msgstr ""
+msgid "Select the Wi-Fi interface, which will be used for jamming."
+msgstr "Kies het Wi-Fi-apparaat dat je wilt gebruiken voor blokkades."
 
 #: src/MainWindow.vala:163
 msgid "Everything works fine."
-msgstr ""
+msgstr "Alles is in orde."
 
 #: src/MainWindow.vala:163
-msgid "The jammer is <b>inactive</b>. Your WiFi network will work as usual."
+msgid "The jammer is <b>inactive</b>. Your Wi-Fi network will work as usual."
 msgstr ""
+"Er wordt <b>niks</b> geblokkeerd. Je Wi-Fi-netwerk werkt zoals gebruikelijk."
 
 #: src/MainWindow.vala:164
 msgid "Activate jammer"
-msgstr ""
+msgstr "Blokkade opwerpen"
 
 #: src/MainWindow.vala:176
 msgid "We're taking off!"
-msgstr ""
+msgstr "We rijden het station uit!"
 
 #: src/MainWindow.vala:176
 msgid "The jammer gets started. Please hold on a moment."
-msgstr ""
+msgstr "De blokkade wordt opgeworpen; even geduld…"
 
 #: src/MainWindow.vala:182
-msgid "Full power back..."
-msgstr ""
+msgid "Full power back…"
+msgstr "We nemen kracht terug…"
 
 #: src/MainWindow.vala:182
 msgid "The jammer gets stopped. Please hold on a moment."
-msgstr ""
+msgstr "De blokkade wordt opgeheven; even geduld…"
 
 #: src/MainWindow.vala:187
 msgid "Bzzzzzz!"
-msgstr ""
+msgstr "Bzzzzzz!"
 
 #: src/MainWindow.vala:187
 msgid ""
 "The jammer is <b>active</b> now! Your device should be the only one,\n"
-"which is able to communicate with the WiFi router."
+"which is able to communicate with the Wi-Fi router."
 msgstr ""
+"De blokkade is <b>opgeworpen</b>! Je apparaat zou nu het enige apparaat\n"
+"moeten zijn dat kan communiceren met je Wi-Fi-router."
 
 #: src/MainWindow.vala:189
 msgid "Deactivate jammer"
-msgstr ""
+msgstr "Blokkade opheffen"
 
 #: src/MainWindow.vala:197
 msgid "That won't work!"
-msgstr ""
+msgstr "Dát gaat niet werken!"
 
 #: src/MainWindow.vala:197
-msgid "You need at least one WiFi interface installed."
-msgstr ""
+msgid "You need at least one Wi-Fi interface installed."
+msgstr "Je moet minimaal één Wi-Fi-apparaat aan boord hebben."
 
 #: src/MainWindow.vala:198
 msgid "Exit"
-msgstr ""
+msgstr "Afsluiten"
 
 #: src/MainWindow.vala:206
 msgid "Disclaimer"
-msgstr ""
+msgstr "Vrijwaringsclausule"
 
 #: src/MainWindow.vala:206
 msgid ""
-"Jamming WiFi networks might violate certain laws or regulations in your "
+"Jamming Wi-Fi networks might violate certain laws or regulations in your "
 "country.\n"
 "You are using this software on your own risk!"
 msgstr ""
+"Het blokkeren van Wi-Fi-netwerken kan bepaalde landswetten overtreden.\n"
+"Gebruik van deze software is op eigen risico!"
 
 #: src/MainWindow.vala:207
 msgid "Got it!"
-msgstr ""
+msgstr "Ik begrijp het!"
 
 #: src/Services/Jammer.vala:41
 msgid "Jammer is busy or already active."
-msgstr ""
+msgstr "Jammer is bezig of reeds actief."
 
 #: src/Services/Jammer.vala:82
 #, c-format
 msgid ""
-"Make sure the WiFi interface '%s' is plugged in and connected to a network."
+"Make sure the Wi-Fi interface '%s' is plugged in and connected to a network."
 msgstr ""
+"Controleer of het Wi-Fi-apparaat '%s' is aangekoppeld en verbonden met een "
+"netwerk."
 
 #: src/Services/Jammer.vala:96 src/Services/Jammer.vala:147
-msgid "Uppps, something wen't wrong ... Maybe you try it one more time!"
-msgstr ""
+msgid "Uppps, something wen't wrong … Maybe you try it one more time!"
+msgstr "Oeps, er is iets misgegaan… Probeer het nog eens!"
 
 #: src/Services/Jammer.vala:141
 #, c-format
 msgid ""
-"Unfortunately the WiFi interface '%s' doesn‘t seem to be supported.\n"
+"Unfortunately the Wi-Fi interface '%s' doesn‘t seem to be supported.\n"
 "Please check %s for more information."
 msgstr ""
+"Het Wi-Fi-apparaat '%s' lijkt niet te worden ondersteund.\n"
+"Bekijk '%s' voor meer informatie."
 
 #: src/Services/Jammer.vala:246
 #, c-format
@@ -117,3 +127,5 @@ msgid ""
 "Error while stopping jammer process. Try again or kill process manually: "
 "'sudo kill %s'"
 msgstr ""
+"Er is een fout opgetreden tijdens het afsluiten van het Jammer-proces. "
+"Probeer het opnieuw of handmatig: 'sudo kill %s'"

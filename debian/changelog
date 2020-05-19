@@ -1,14 +1,20 @@
-com.github.ronnydo.wammer (1.1.4) bionic; urgency=medium
+com.github.ronnydo.wammer (1.1.6) bionic; urgency=medium
 
-  * Juno Release!!1!
+  * Update build scripts
   
- -- Ronny Dobra <ronnydobra@arcor.de>  Thu, 03 Jan 2019 21:44:00 +0100
+ -- Ronny Dobra <ronnydobra@arcor.de>  Thu, 03 May 2020 00:44:00 +0100
+
+com.github.ronnydo.wammer (1.1.5) bionic; urgency=medium
+
+  * elementary OS "Hera" Release!
+  
+ -- Ronny Dobra <ronnydobra@arcor.de>  Thu, 02 Jan 2020 21:44:00 +0100
 
 com.github.ronnydo.wammer (1.0.0) xenial; urgency=medium
 
   * Hans! Hol den Flammenwerfer!" - Added German translation
   * Small typo fix
-  * No bigger issues so far means first main release!!1!
+  * No bigger issues so far means first main release!
   
  -- Ronny Dobra <ronnydobra@arcor.de>  Wed, 06 Jun 2018 18:44:00 +0100
 
@@ -16,7 +22,7 @@ com.github.ronnydo.wammer (0.0.6) xenial; urgency=medium
 
   * Fix "Add aircrack-ng as a dependency" (issue #4)
   * Fix "Mention legality disclaimer in description" (issue #5)
-  * Bonus:add some pixie dust
+  * Bonus: add some pixie dust
   
  -- Ronny Dobra <ronnydobra@arcor.de>  Thu, 01 May 2018 23:35:00 +0100
 
@@ -51,4 +57,3 @@ com.github.ronnydo.wammer (0.0.1) xenial; urgency=medium
   * initial release
   
  -- Ronny Dobra <ronnydobra@arcor.de>  Thu, 27 Apr 2018 13:30:00 +0100
-                                              

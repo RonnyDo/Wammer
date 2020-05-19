@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the extra package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-12 10:28+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/com.github.ronnydo.wammer.desktop.in:3
+#: data/com.github.ronnydo.wammer.appdata.xml.in:8
+msgid "Wammer"
+msgstr ""
+
+#: data/com.github.ronnydo.wammer.desktop.in:4
+#: data/com.github.ronnydo.wammer.appdata.xml.in:9
+msgid "Jamming your Wi-Fi network"
+msgstr ""
+
+#: data/com.github.ronnydo.wammer.desktop.in:6
+msgid "com.github.ronnydo.wammer"
+msgstr ""
+
+#: data/com.github.ronnydo.wammer.desktop.in:7
+msgid "wammer;jammer;Wi-Fijammer;aircrack;"
+msgstr ""
+
+#: data/com.github.ronnydo.wammer.appdata.xml.in:11
+msgid ""
+"Wammer lets you kick out all clients in your Wi-Fi network, so you can enjoy "
+"its full bandwidth. Best part of the story: everything works fully "
+"automatically!"
+msgstr ""
+
+#: data/com.github.ronnydo.wammer.appdata.xml.in:12
+msgid ""
+"In order to work Wammer needs the aircrack-ng installed and a compatible "
+"Wi-Fi device to work. For more information please visit the project's "
+"homepage."
+msgstr ""
+
+#: data/com.github.ronnydo.wammer.appdata.xml.in:14
+msgid ""
+"Disclaimer: This software is for educational purposes only. Jamming Wi-Fi "
+"networks might violate certain laws or regulations in your country. Make "
+"sure you have the network owner's permission to run this program. You are "
+"using this software on your own risk."
+msgstr ""
+
+#: data/com.github.ronnydo.wammer.appdata.xml.in:27
+msgid "elementary OS \"Hera\" Release!"
+msgstr ""
+
+#: data/com.github.ronnydo.wammer.appdata.xml.in:34
+msgid "\"Hans! Hol den Flammenwerfer!\" - Added German translation"
+msgstr ""
+
+#: data/com.github.ronnydo.wammer.appdata.xml.in:35
+msgid "Small typo fix"
+msgstr ""
+
+#: data/com.github.ronnydo.wammer.appdata.xml.in:36
+msgid "No bigger issues so far means first main release!"
+msgstr ""
+
+#: data/com.github.ronnydo.wammer.appdata.xml.in:43
+#: data/com.github.ronnydo.wammer.appdata.xml.in:52
+msgid "Fix \"Add aircrack-ng as a dependency\" (issue #4)"
+msgstr ""
+
+#: data/com.github.ronnydo.wammer.appdata.xml.in:44
+#: data/com.github.ronnydo.wammer.appdata.xml.in:53
+msgid "Fix \"Mention legality disclaimer in description\" (issue #5)"
+msgstr ""
+
+#: data/com.github.ronnydo.wammer.appdata.xml.in:45
+#: data/com.github.ronnydo.wammer.appdata.xml.in:54
+msgid "Bonus: add some pixie dust"
+msgstr ""
+
+#: data/com.github.ronnydo.wammer.appdata.xml.in:61
+msgid "fix issue Invalid AppData file (issue #3)"
+msgstr ""
+
+#: data/com.github.ronnydo.wammer.appdata.xml.in:68
+msgid "fix issue Invalid AppData file (issue #2)"
+msgstr ""
+
+#: data/com.github.ronnydo.wammer.appdata.xml.in:75
+msgid "fix issue Invalid AppData file (issue #1)"
+msgstr ""
+
+#: data/com.github.ronnydo.wammer.appdata.xml.in:82
+msgid "Initial release"
+msgstr ""
+
+#: data/com.github.ronnydo.wammer.appdata.xml.in:92
+msgid "Jammer is inactive"
+msgstr ""
+
+#: data/com.github.ronnydo.wammer.appdata.xml.in:96
+msgid "Jammer is activated"
+msgstr ""
+
+#: data/com.github.ronnydo.wammer.appdata.xml.in:100
+msgid "Ronny Dobra"
+msgstr ""
